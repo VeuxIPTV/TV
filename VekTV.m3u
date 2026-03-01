@@ -1182,6 +1182,9 @@ https://mhd128.iptv2022.com/p/xrGleF0ZGivTVyL9w-5qOg,1772438048/streaming/footbo
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
 https://mhd128.iptv2022.com/p/dKF5M4bTnYUnLo38KVmzYw,1772438048/streaming/hokkeyniy/324/1/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/trace-sport-stars-ru.png" tvg-id="trace-sport-stars-ru" tvg-name"Trace Sport Stars [RU]" audio-track="rus" tvg-adaptive="auto" group-title="Спортивные",Trace Sport Stars
+#EXTVLCOPT:network-caching=3000
+http://87.120.142.11:18000/Rossiya1
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/tochka-otryva.png" tvg-id="tochka-otryva" tvg-name"Точка отрыва" audio-track="rus" tvg-adaptive="auto" group-title="Спортивные",Точка Отрыва
 #EXTVLCOPT:network-caching=3000
 https://stream8.cinerama.uz/1031/tracks-v1a1/mono.m3u8
