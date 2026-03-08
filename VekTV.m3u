@@ -1333,9 +1333,9 @@ https://a3569457567-s70378.cdn.ngenix.net/vip_serial/2/index.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 #EXTVLCOPT:network-caching=3000
 https://live-hls-viasat-secure-flus.cdnvideo.ru/viasat/TV1000East_HD_ad.smil/tracks-v1a1/mono.ts.m3u8?filter.tracks=v1v2v3a1&md5=YG9I84yaqyeO-98a_OHKsA&e=1773173939&hls_proxy_host=e2c000defa6aa845b219ba5ca0db8ad5
-#EXTINF:-1 tvg-id="tv1000-russkoe-kino" tvg-logo="https://epg.iptvx.one/picons/tv1000-russkoe-kino.png" tvg-name"viju TV1000 Русское" audio-track="rus" tvg-adaptive="auto" group-title="Кино и сериалы",Viju TV1000 Русское
+#EXTINF:-1 tvg-id="tv1000-russkoe-kino" tvg-logo="https://epg.iptvx.one/picons/tv1000-russkoe-kino.png" tvg-name"viju TV1000 Русское" audio-track="rus" tvg-adaptive="auto" catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Кино и сериалы",Viju TV1000 Русское
 #EXTVLCOPT:network-caching=3000
-https://stream8.cinerama.uz/1059/tracks-v1a1/mono.m3u8
+http://api.peers.tv/timeshift/tv_1000_rus_kino/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzMwNDI3NzIsImlhdCI6MTc3Mjk1NjM3MiwiY2lkIjo2LCJ1aWQiOjEwMTY1OTUyNzIsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.3wCeav7vp6yVoryVIIMdV5F_B0WNz0KjlPbySTKbvQY&offset=10
 #EXTINF:-1 tvg-id="tv1000-action" tvg-logo="https://epg.iptvx.one/picons/tv1000-action.png" tvg-name"viju TV1000 Action" audio-track="rus" tvg-adaptive="auto" group-title="Кино и сериалы",Viju TV1000 Action
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 #EXTVLCOPT:network-caching=3000
