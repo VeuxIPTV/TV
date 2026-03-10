@@ -3,7 +3,7 @@
 
 #EXTINF:-1 tvg-id="no_epg" audio-track="rus" tvg-adaptive="auto" group-title="ИНФО",Инфоканал
 #EXTVLCOPT:network-caching=3000
-http://192.168.101.32:5000/Info-channel/index.m3u8
+
 #EXTINF:-1 tvg-id="no_epg" audio-track="rus" tvg-adaptive="auto" group-title="ИНФО",☀️❗Обновление:10.03.2026❗☀️
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
