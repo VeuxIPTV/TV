@@ -331,27 +331,27 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_4/variant.m3u8
 http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_7/variant.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/rifey-tv.png" tvg-id="rifey-tv" tvg-name"Рифей-ТВ"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Рифей-ТВ
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/rifey-tv.png" tvg-id="rifey-tv" tvg-name"Рифей-ТВ" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Рифей-ТВ
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-ural-perm-htlive.cdn.ngenix.net/hls/CH_R02_OTT_RENTV_REFEY_PERM/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/reportior-73.png" tvg-id="reportior-73" tvg-name"Репортер 73"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Репортер 73
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/reportior-73.png" tvg-id="reportior-73" tvg-name"Репортер 73" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Репортер 73
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 http://rt-vlg-ul-htlive.cdn.ngenix.net/hls/CH_R03_REP73/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/31-kanal-chelyabinsk.png" tvg-id="31-kanal-chelyabinsk" tvg-name"31 канал (Челябинск)"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",31 канал Челябинск
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/31-kanal-chelyabinsk.png" tvg-id="31-kanal-chelyabinsk" tvg-name"31 канал (Челябинск)" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",31 канал Челябинск
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-ural-chel-htlive.cdn.ngenix.net/hls/CH_R01_OTT_31TVK_CHEL/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/41region.png" tvg-id="41region" tvg-name"41 регион"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" ,41 Регион
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/41region.png" tvg-id="41region" tvg-name"41 регион" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" ,41 Регион
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://s14131.cdn.ngenix.net/hls/CH_R02_OTT_DV_KAM_41REG_OTT/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/12-omsk.png"  tvg-name"12 канал (Омск)"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="12-omsk",12 канал (Омск)
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/12-omsk.png"  tvg-name"12 канал (Омск)" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="12-omsk",12 канал (Омск)
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_OMSK_12CHANNEL/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/6tv.png" tvg-id="6tv" tvg-name"6 ТВ"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",6 ТВ
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/6tv.png" tvg-id="6tv" tvg-name"6 ТВ" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",6 ТВ
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://s97982.cdn.ngenix.net/hls/CH_R27_OTT_DV_HVSK_6TV/variant.m3u8
@@ -359,23 +359,23 @@ https://s97982.cdn.ngenix.net/hls/CH_R27_OTT_DV_HVSK_6TV/variant.m3u8
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-nw-vol-htlive.cdn.ngenix.net/hls/CH_R01_12CHANNEL/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/7kanal-krasnoyarsk.png" tvg-id="7kanal-krasnoyarsk" tvg-name"7 канал (Красноярск)"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",7 канал (Красноярск)
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/7kanal-krasnoyarsk.png" tvg-id="7kanal-krasnoyarsk" tvg-name"7 канал (Красноярск)" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",7 канал (Красноярск)
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R13_OTT_SIB_KRSK_RENTV/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/8vladik.png" tvg-id="8vladik" tvg-name"8 канал (Владивосток)"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",8 канал (Владивосток)
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/8vladik.png" tvg-id="8vladik" tvg-name"8 канал (Владивосток)" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",8 канал (Владивосток)
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 http://s91030.cdn.ngenix.net/hls/CH_R01_OTT_DV_VLD_OTT8KANAL/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/8kanal-krasnoyarsk.png"  tvg-name"8 канал (Красноярский край)"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="8kanal-krasnoyarsk",8 канал (Красноярский край)
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/8kanal-krasnoyarsk.png"  tvg-name"8 канал (Красноярский край)" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="8kanal-krasnoyarsk",8 канал (Красноярский край)
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R02_OTT_SIB_KRSK_8CHANNEL/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/8kanal-novosibirsk.png"  tvg-name"8 канал (Новосибирск)"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="8kanal-novosibirsk",8 канал (Новосибирск)
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/8kanal-novosibirsk.png"  tvg-name"8 канал (Новосибирск)" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="8kanal-novosibirsk",8 канал (Новосибирск)
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-sib-nsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_NSK_8CHANNEL/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/ugra-travel.png" tvg-id="ugra-travel" tvg-name"Ugra Travel"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",UGRA TRAVEL
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/ugra-travel.png" tvg-id="ugra-travel" tvg-name"Ugra Travel" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",UGRA TRAVEL
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R04_OTT_UGRA_TRAVEL/variant.m3u8
@@ -387,27 +387,27 @@ https://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_IRK_AIST/variant.m3u
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://s84942.cdn.ngenix.net/hls/CH_R28_OTT_DV_BLAG_AOT/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/arig-us-24.png" tvg-id="arig-us-24" tvg-name"Ариг Ус 24"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Ариг Ус 24
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/arig-us-24.png" tvg-id="arig-us-24" tvg-name"Ариг Ус 24" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Ариг Ус 24
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-sib-uude-htlive.cdn.ngenix.net/hls/CH_R01_ARIGUS/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/arktika-24.png" tvg-id="arktika-24" tvg-name"Арктика 24"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Арктика 24
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/arktika-24.png" tvg-id="arktika-24" tvg-name"Арктика 24" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Арктика 24
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 http://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R04_OTT_ARKTIKA24_URAL_YNF/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/78.png"  tvg-name"78"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="78kanal",78 канал
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/78.png"  tvg-name"78" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="78kanal",78 канал
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_R02_KANAL78/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/arktik-tv.png"  tvg-name"Арктик-TV"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="arktik-tv",Арктик-ТВ
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/arktik-tv.png"  tvg-name"Арктик-TV" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="arktik-tv",Арктик-ТВ
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-nw-murm-htlive.cdn.ngenix.net/hls/CH_R03_ARCTIC/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/astraxan24.png" tvg-id="astraxan24" tvg-name"Астрахань 24"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Астрахань 24
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/astraxan24.png" tvg-id="astraxan24" tvg-name"Астрахань 24" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Астрахань 24
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-sth-astrh-htlive.cdn.ngenix.net/hls/CH_R01_ASTRAKHAN24/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/atv-media.png" tvg-id="atv-media" tvg-name"АТВ-Медиа"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",АТВ-Медиа
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/atv-media.png" tvg-id="atv-media" tvg-name"АТВ-Медиа" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",АТВ-Медиа
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-sib-uude-htlive.cdn.ngenix.net/hls/CH_R01_ATVMEDIA/variant.m3u8
@@ -419,11 +419,11 @@ https://rt-nw-arkh-htlive.cdn.ngenix.net/hls/CH_R01_STV24/variant.m3u8
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-ct-ivan-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_IVAN_BARS/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/bashkortostan24.png" tvg-id="bashkortostan24" tvg-name"Башкортостан 24"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Башкортостан 24
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/bashkortostan24.png" tvg-id="bashkortostan24" tvg-name"Башкортостан 24" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Башкортостан 24
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://s45177.cdn.ngenix.net/hls/CH_R02_BASHKORTOSTAN24/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/belgorod24.png" tvg-id="belgorod24" tvg-name"Белгород 24"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Белгород 24
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/belgorod24.png" tvg-id="belgorod24" tvg-name"Белгород 24" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Белгород 24
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-ct-belg-htlive.cdn.ngenix.net/hls/CH_R02_OTT_CT_BELG_BELGOROD24/variant.m3u8
@@ -431,11 +431,11 @@ https://rt-ct-belg-htlive.cdn.ngenix.net/hls/CH_R02_OTT_CT_BELG_BELGOROD24/varia
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-ct-bryansk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_BRYANSK_BRGRUBER/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/bst.png" tvg-id="bst" tvg-name"БСТ"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",БСТ
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/bst.png" tvg-id="bst" tvg-name"БСТ" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",БСТ
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-ural-chel-htlive.cdn.ngenix.net/hls/CH_R01_OTT_BST/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/tk-variant.png"  tvg-name"ТК Вариант"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="tk-variant",ТК Вариант
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/tk-variant.png"  tvg-name"ТК Вариант" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="tk-variant",ТК Вариант
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-ct-vlad-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_VLAD_VARIANT_V/variant.m3u8
@@ -443,127 +443,127 @@ https://rt-ct-vlad-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_VLAD_VARIANT_V/varian
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R02_VEKTOR24_GUBK/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/vetta24.png"  tvg-name"Ветта 24 Пермь"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="vetta24",Ветта 24 Пермь
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/vetta24.png"  tvg-name"Ветта 24 Пермь" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="vetta24",Ветта 24 Пермь
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-ural-perm-htlive.cdn.ngenix.net/hls/CH_R01_OTT_VETTA24_PERM/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/volga.png"  tvg-name"Волга"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="volga",Волга
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/volga.png"  tvg-name"Волга" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="volga",Волга
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R03_VOLGA/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/volgograd-1.png" tvg-id="volgograd-1" tvg-name"Волгоград 1"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Волгоград 1
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/volgograd-1.png" tvg-id="volgograd-1" tvg-name"Волгоград 1" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Волгоград 1
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 http://rt-sth-vgrad-htlive.cdn.ngenix.net/hls/CH_R06_OTT_STH_VGRAD_VOLGOGRAD1/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/volgograd-24.png" tvg-name"Волгоград 24"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="volgograd-24",Волгоград-24 HD
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/volgograd-24.png" tvg-name"Волгоград 24" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="volgograd-24",Волгоград-24 HD
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-sth-vgrad-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_VGRAD_VOLGOGRAD24/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/vostok-24.png" tvg-id="vostok-24" tvg-name"Восток 24"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Восток 24
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/vostok-24.png" tvg-id="vostok-24" tvg-name"Восток 24" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Восток 24
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 http://s91030.cdn.ngenix.net/hls/CH_R01_OTT_DV_VLD_VOSTOK24_OTT/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/vot-tv.png" tvg-name"ВОТ ТВ"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="vot-tv",ВОТтв HD
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/vot-tv.png" tvg-name"ВОТ ТВ" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="vot-tv",ВОТтв HD
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-ct-lipetsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_LIPETSK_VOTTV/variant.m3u8
-#EXTINF:-1 tvg-id="vtk-argus" tvg-name"ВТК Аргус"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-logo="https://i.postimg.cc/QtQrZy4k/23.jpg",ВТК 41 "Аргус"
+#EXTINF:-1 tvg-id="vtk-argus" tvg-name"ВТК Аргус" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-logo="https://i.postimg.cc/QtQrZy4k/23.jpg",ВТК 41 "Аргус"
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-ct-vrzh-htlive.cdn.ngenix.net/hls/CH_R01_ARGUS/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/gorodskoy-yaroslavl.png" tvg-name"Городской телеканал (Ярославль)"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="gorodskoy-yaroslavl",Городской телеканал Ярославль
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/gorodskoy-yaroslavl.png" tvg-name"Городской телеканал (Ярославль)" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="gorodskoy-yaroslavl",Городской телеканал Ярославль
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-ct-yarl-htlive.cdn.ngenix.net/hls/CH_R02_OTT_CT_YARL_GTREG/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/gubernia-33.png" tvg-name"Губерния 33"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="gubernia-33",Губерния 33 HD
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/gubernia-33.png" tvg-name"Губерния 33" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="gubernia-33",Губерния 33 HD
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 http://rt-ct-vlad-htlive.cdn.ngenix.net/hls/CH_R02_OTT_CT_VLAD_GUBERNIA33/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/gubernia-samara.png" tvg-id="gubernia-samara" tvg-name"Губерния Самара"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Губерния Самара
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/gubernia-samara.png" tvg-id="gubernia-samara" tvg-name"Губерния Самара" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Губерния Самара
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R02_GUBERNIA/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/deviatka.png" tvg-id="deviatka" tvg-name"Девятка ТВ"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Девятка ТВ
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/deviatka.png" tvg-id="deviatka" tvg-name"Девятка ТВ" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Девятка ТВ
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-vlg-kirov-htlive.cdn.ngenix.net/hls/CH_R02_9TV/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/dzenzhinsk-tv.png" tvg-id="dzenzhinsk-tv" tvg-name"Дзержинск ТВ"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Дзержинск ТВ
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/dzenzhinsk-tv.png" tvg-id="dzenzhinsk-tv" tvg-name"Дзержинск ТВ" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Дзержинск ТВ
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R01_DZERZHINSK/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/don-24.png" tvg-name"Дон 24"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="don-24",ДОН 24 HD
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/don-24.png" tvg-name"Дон 24" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="don-24",ДОН 24 HD
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-sth-rd-htlive.cdn.ngenix.net/hls/CH_R02_OTT_STH_RD_DON24/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/evrasia.png" tvg-id="evrasia" tvg-name"Евразия"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Евразия
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/evrasia.png" tvg-id="evrasia" tvg-name"Евразия" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Евразия
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-vlg-orb-htlive.cdn.ngenix.net/hls/CH_R02_EVRAZIY/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/enisey-region.png" tvg-id="enisey-region" tvg-name"Енисей регион"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="enisey-region",Енисей HD
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/enisey-region.png" tvg-id="enisey-region" tvg-name"Енисей регион" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="enisey-region",Енисей HD
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_KRSK_ENISEY/variant.m3u8
-#EXTINF:-1 tvg-id="impuls-sewera" tvg-name"Импульс Севера"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-logo="https://epg.iptvx.one/picons/impuls-sewera.png",Импульс HD
+#EXTINF:-1 tvg-id="impuls-sewera" tvg-name"Импульс Севера" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-logo="https://epg.iptvx.one/picons/impuls-sewera.png",Импульс HD
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R02_IMPULS_NBK/variant.m3u8
-#EXTINF:-1 tvg-id="inf24shadr" tvg-name"Инфо 24 (Шадринск)"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-logo="https://epg.iptvx.one/picons/inf24shadr.png",Инфо 24 HD
+#EXTINF:-1 tvg-id="inf24shadr" tvg-name"Инфо 24 (Шадринск)" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-logo="https://epg.iptvx.one/picons/inf24shadr.png",Инфо 24 HD
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-ural-krg-htlive.cdn.ngenix.net/hls/CH_R04_OTT_SHINFO_URAL_KRG/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/kavkaz24.png" tvg-id="kavkaz24" tvg-name"Кавказ 24"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Кавказ 24
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/kavkaz24.png" tvg-id="kavkaz24" tvg-name"Кавказ 24" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Кавказ 24
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-sth-stavr-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_STAVR_KAVKAZ24/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/kamcha-1.png" tvg-name"Камчатка 1"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="no_epg_news",Камчатка HD
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/kamcha-1.png" tvg-name"Камчатка 1" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="no_epg_news",Камчатка HD
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://s14131.cdn.ngenix.net/hls/CH_R41_OTT_DV_KAM_KAMCHATKA/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/kaskad24.png" tvg-name"Каскад-24"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="kaskad24",Каскад
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/kaskad24.png" tvg-name"Каскад-24" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="kaskad24",Каскад
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 http://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R01_KASKAD/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/katun-24.png" tvg-name"Катунь 24"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="katun-24",Катунь 24
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/katun-24.png" tvg-name"Катунь 24" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="katun-24",Катунь 24
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-sib-bul-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_BUL_KATUN24/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/krasnodar.png" tvg-name"Краснодар"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="krasnodar",Краснодар HD
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/krasnodar.png" tvg-name"Краснодар" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="krasnodar",Краснодар HD
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-sth-krdar-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_KRDAR_KRASNODAR/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/kuban-24.png" tvg-id="kuban-24" tvg-name"Кубань 24"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Кубань 24
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/kuban-24.png" tvg-id="kuban-24" tvg-name"Кубань 24" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Кубань 24
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-sth-krdar-htlive.cdn.ngenix.net/hls/CH_R04_KUBAN24/variant.m3u8
-#EXTINF:-1 tvg-id="kuzbas1" tvg-name"Кузбасс 1"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-logo="https://epg.iptvx.one/picons/kuzbas1.png",Кузбасс 1
+#EXTINF:-1 tvg-id="kuzbas1" tvg-name"Кузбасс 1" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-logo="https://epg.iptvx.one/picons/kuzbas1.png",Кузбасс 1
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-sib-kem-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_KEM_GTRK/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/lot-47.png" tvg-name"Лен ТВ 24"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="lot-47",Лен ТВ 24
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/lot-47.png" tvg-name"Лен ТВ 24" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="lot-47",Лен ТВ 24
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_R02_LENTVSD/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/lipeckoe-vremia.png" tvg-id="lipeckoe-vremia" tvg-name"Липецкое время"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Липецкое время
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/lipeckoe-vremia.png" tvg-id="lipeckoe-vremia" tvg-name"Липецкое время" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Липецкое время
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 http://rt-ct-lipetsk-htlive.cdn.ngenix.net/hls/CH_R02_OTT_CT_LIPETSK_LVREM/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/maydan.png" tvg-id="maydan" tvg-name"Майдан"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Майдан
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/maydan.png" tvg-id="maydan" tvg-name"Майдан" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Майдан
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 http://rt-vlg-kzn-htlive.cdn.ngenix.net/hls/CH_R05_OTT_VLG_KZN_MAIDAN/variant.m3u8?version2
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/matur-tv.png" tvg-id="matur-tv" tvg-name"Матур ТВ"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Матур ТВ
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/matur-tv.png" tvg-id="matur-tv" tvg-name"Матур ТВ" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Матур ТВ
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://s45177.cdn.ngenix.net/hls/CH_R02_MATURTV/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/mig-tv-noyabrsk.png" tvg-name"Миг ТВ Ноябрьск"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="mig-tv-noyabrsk",МИГ ТВ
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/mig-tv-noyabrsk.png" tvg-name"Миг ТВ Ноябрьск" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="mig-tv-noyabrsk",МИГ ТВ
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 http://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R04_OTT_MIG_TV_URAL_YNF/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/mir-belogoria.png" tvg-id="mir-belogoria" tvg-name"Мир Белогорья"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Мир Белогорья
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/mir-belogoria.png" tvg-id="mir-belogoria" tvg-name"Мир Белогорья" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Мир Белогорья
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-ct-belg-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_BELG_MIR_BLG/variant.m3u8
-#EXTINF:-1 tvg-id="mordovia-24" tvg-name"Мордовия 24"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-logo="https://epg.iptvx.one/picons/mordovia-24.png",Мордовия-24
+#EXTINF:-1 tvg-id="mordovia-24" tvg-name"Мордовия 24" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-logo="https://epg.iptvx.one/picons/mordovia-24.png",Мордовия-24
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-vlg-srnk-htlive.cdn.ngenix.net/hls/CH_R02_MORDOVIY24/variant.m3u8
@@ -571,147 +571,147 @@ https://rt-vlg-srnk-htlive.cdn.ngenix.net/hls/CH_R02_MORDOVIY24/variant.m3u8
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_MURAVLENKO_24/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/metr.png" tvg-id="metr" tvg-name"МЭТР"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",МЭТР
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/metr.png" tvg-id="metr" tvg-name"МЭТР" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",МЭТР
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-vlg-yola-htlive.cdn.ngenix.net/hls/CH_R03_METR/variant.m3u8
-#EXTINF:-1 tvg-id="ntm" tvg-name"НТМ"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-logo="https://epg.iptvx.one/picons/ntm.png",Народное телевидение Мордовии
+#EXTINF:-1 tvg-id="ntm" tvg-name"НТМ" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-logo="https://epg.iptvx.one/picons/ntm.png",Народное телевидение Мордовии
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-vlg-srnk-htlive.cdn.ngenix.net/hls/CH_R01_NTM/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/nash-dom.png" tvg-id="nash-dom" tvg-name"Наш дом"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Наш дом
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/nash-dom.png" tvg-id="nash-dom" tvg-name"Наш дом" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Наш дом
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-vlg-penza-htlive.cdn.ngenix.net/hls/CH_R03_NASHDOM/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/sever.png" tvg-name"Север"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="sever",Север (Нарьян-Мар)
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/sever.png" tvg-name"Север" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="sever",Север (Нарьян-Мар)
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-nw-arkh-htlive.cdn.ngenix.net/hls/CH_R01_SEVER/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/sankt-peterburg.png" tvg-name"Санкт-Петербург"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="sankt-peterburg",Санкт-Петербург
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/sankt-peterburg.png" tvg-name"Санкт-Петербург" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="sankt-peterburg",Санкт-Петербург
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_R02_SPBREGIONALHD/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/nashi-goroda.png" tvg-id="nashi-goroda" tvg-name"Наши Города (Когалым)"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" ,Наши города
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/nashi-goroda.png" tvg-id="nashi-goroda" tvg-name"Наши Города (Когалым)" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" ,Наши города
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R04_OTT_NGOR_URAL_SUR/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/saxa.png" tvg-name"Саха"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="saxa",НВК (Саха)
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/saxa.png" tvg-name"Саха" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="saxa",НВК (Саха)
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://s34351.cdn.ngenix.net/hls/CH_R03_OTT_DV_YKT_NVC_OTT/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/nika-tv.png" tvg-name"Ника ТВ"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="nika-tv",Ника-ТВ
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/nika-tv.png" tvg-name"Ника ТВ" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="nika-tv",Ника-ТВ
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-ct-kaluga-htlive.cdn.ngenix.net/hls/CH_R01_NIKA/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/nntv.png" tvg-id="nntv" tvg-name"ННТВ"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",ННТВ
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/nntv.png" tvg-id="nntv" tvg-name"ННТВ" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",ННТВ
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 http://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R02_NNTV/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/novgorodskoe-obl-tv.png" tvg-id="novgorodskoe-obl-tv" tvg-name"Новгородское Областное телевидение"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Новгородское областное телевидение
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/novgorodskoe-obl-tv.png" tvg-id="novgorodskoe-obl-tv" tvg-name"Новгородское Областное телевидение" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Новгородское областное телевидение
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-nw-novg-htlive.cdn.ngenix.net/hls/CH_R02_NOVGORODTV/variant.m3u8
-#EXTINF:-1 tvg-id="novoe-vremia" tvg-name"Новое время"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-logo="https://epg.iptvx.one/picons/novoe-vremia.png",Новое время (Радужный)
+#EXTINF:-1 tvg-id="novoe-vremia" tvg-name"Новое время" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-logo="https://epg.iptvx.one/picons/novoe-vremia.png",Новое время (Радужный)
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R04_OTT_RADUZNYI/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/novy-vek-tambov.png" tvg-id="novy-vek-tambov" tvg-name"Новый век (Тамбов)"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Новый век (Тамбов)
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/novy-vek-tambov.png" tvg-id="novy-vek-tambov" tvg-name"Новый век (Тамбов)" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Новый век (Тамбов)
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 http://rt-ct-tamb-htlive.cdn.ngenix.net/hls/CH_R03_OTT_CT_TAMB_NOVIY_VEK/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/nts-irkutsk.png" tvg-id="nts-irkutsk" tvg-name"НТС (Иркутск)"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",НТС Иркутск
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/nts-irkutsk.png" tvg-id="nts-irkutsk" tvg-name"НТС (Иркутск)" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",НТС Иркутск
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_IRK_RENTVIRK/variant.m3u8
-#EXTINF:-1 tvg-id="oblast45" tvg-name"Область 45"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-logo="https://epg.iptvx.one/picons/oblast45.png",Область 45 HD
+#EXTINF:-1 tvg-id="oblast45" tvg-name"Область 45" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-logo="https://epg.iptvx.one/picons/oblast45.png",Область 45 HD
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-ural-krg-htlive.cdn.ngenix.net/hls/CH_R04_OTT_OBLAST45/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/ort-planeta-orenburg.png" tvg-id="ort-planeta-orenburg" tvg-name"ОРТ-Планета (Оренбург)"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",ОРТ-Планета (Оренбург)
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/ort-planeta-orenburg.png" tvg-id="ort-planeta-orenburg" tvg-name"ОРТ-Планета (Оренбург)" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",ОРТ-Планета (Оренбург)
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-vlg-orb-htlive.cdn.ngenix.net/hls/CH_R03_ORTPLANET/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/osetia-iryston.png" tvg-name"Осетия-Ирыстон"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="osetia-iryston",Осетия Ирыстон HD
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/osetia-iryston.png" tvg-name"Осетия-Ирыстон" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="osetia-iryston",Осетия Ирыстон HD
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 http://rt-sth-vkaz-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_VKAZ_IRISTON/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/otv-eburg.png" tvg-name"ОТВ Екатеринбург"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="otv-eburg",ОТВ Екатеринбург HD
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/otv-eburg.png" tvg-name"ОТВ Екатеринбург" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="otv-eburg",ОТВ Екатеринбург HD
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R02_OTT_OTV_URAL_EKT/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/otv-chelyabinsk.png" tvg-id="otv-chelyabinsk" tvg-name"ОТВ Челябинск"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные", ОТВ Челябинск
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/otv-chelyabinsk.png" tvg-id="otv-chelyabinsk" tvg-name"ОТВ Челябинск" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные", ОТВ Челябинск
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-ural-chel-htlive.cdn.ngenix.net/hls/CH_R02_OTT_OTV_CHEL/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/ots.png" tvg-id="ots" tvg-name"ОТС"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",ОТС HD
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/ots.png" tvg-id="ots" tvg-name"ОТС" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",ОТС HD
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-sib-nsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_NSK_OTS/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/pervy-gorodskoy-gom.png" tvg-id="pervy-gorodskoy-gom" tvg-name"Первый городской (Гомель)"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Первый городской (Киров)
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/pervy-gorodskoy-gom.png" tvg-id="pervy-gorodskoy-gom" tvg-name"Первый городской (Гомель)" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Первый городской (Киров)
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-vlg-kirov-htlive.cdn.ngenix.net/hls/CH_R03_PERVYGORODSKOY/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/pervy-tulsky.png" tvg-name"Первый тульский"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="pervy-tulsky",Первый Тульский HD
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/pervy-tulsky.png" tvg-name"Первый тульский" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="pervy-tulsky",Первый Тульский HD
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-ct-tula-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_TULA_PERV_TUL/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/pervy-yaroslavsky.png" tvg-id="pervy-yaroslavsky" tvg-name"Первый Ярославский"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Первый Ярославский
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/pervy-yaroslavsky.png" tvg-id="pervy-yaroslavsky" tvg-name"Первый Ярославский" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Первый Ярославский
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-ct-yarl-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_YARL_NTM/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/prima.png" tvg-name"Прима"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="prima",Прима-ТВ
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/prima.png" tvg-name"Прима" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="prima",Прима-ТВ
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R11_OTT_SIB_KRSK_STS/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/rybinsk40.png" tvg-name"Рыбинск-40"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="rybinsk40",Рыбинск-40
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/rybinsk40.png" tvg-name"Рыбинск-40" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="rybinsk40",Рыбинск-40
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-ct-yarl-htlive.cdn.ngenix.net/hls/CH_R01_RYBINSK40/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/s1-surgut.png" tvg-name"С1 Сургут"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="s1-surgut",С1 Сургут HD
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/s1-surgut.png" tvg-name"С1 Сургут" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="s1-surgut",С1 Сургут HD
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R04_OTT_C1_URAL_SUR/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/saratov-24.png" tvg-name"Саратов 24"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="saratov-24",Саратов-24
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/saratov-24.png" tvg-name"Саратов 24" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="saratov-24",Саратов-24
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-vlg-saratov-htlive.cdn.ngenix.net/hls/CH_R01_SARATOV24/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/tv21plus.png" tvg-id="tv21plus" tvg-name"ТВ-21+"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",ТВ21+
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/tv21plus.png" tvg-id="tv21plus" tvg-name"ТВ-21+" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",ТВ21+
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-nw-murm-htlive.cdn.ngenix.net/hls/CH_R01_TV21PLUS/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/tatarstan24.png" tvg-name"Татарстан-24"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="tatarstan24",Татарстан 24
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/tatarstan24.png" tvg-name"Татарстан-24" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="tatarstan24",Татарстан 24
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-vlg-kzn-htlive.cdn.ngenix.net/hls/CH_R02_EFIR24/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/sochi24.png" tvg-name"Сочи24"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="sochi24",Сочи24 HD
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/sochi24.png" tvg-name"Сочи24" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="sochi24",Сочи24 HD
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-sth-krdar-htlive.cdn.ngenix.net/hls/CH_R01_MAKS241/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/tv-guberniya.png" tvg-name"TV Губерния"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="tv-guberniya",ТВ-Губерния
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/tv-guberniya.png" tvg-name"TV Губерния" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="tv-guberniya",ТВ-Губерния
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-ct-vrzh-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_VRZH_TVGUBERNIYA/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/tnv.png" tvg-id="tnv-planeta" tvg-name"ТНВ-Планета"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",ТНВ-Планета
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/tnv.png" tvg-id="tnv-planeta" tvg-name"ТНВ-Планета" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",ТНВ-Планета
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R05_TNV/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/tnv-tat.png" tvg-id="tnv" tvg-name"ТНВ Татарстан"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",ТНВ-Татарстан
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/tnv-tat.png" tvg-id="tnv" tvg-name"ТНВ Татарстан" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",ТНВ-Татарстан
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-vlg-kzn-htlive.cdn.ngenix.net/hls/CH_R01_TNVT/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/tolyatti24.png" tvg-name"Тольятти 24"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="tolyatti24",Тольятти-24
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/tolyatti24.png" tvg-name"Тольятти 24" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные" tvg-id="tolyatti24",Тольятти-24
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R01_TOLYTTI24/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/tumenskoe-vremia.png" tvg-id="tumenskoe-vremia" tvg-name"Тюменское время"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Тюменское время
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/tumenskoe-vremia.png" tvg-id="tumenskoe-vremia" tvg-name"Тюменское время" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Тюменское время
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-ural-tum-htlive.cdn.ngenix.net/hls/CH_R01_OTT_TUMVR_URAL_TUM/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/udmurtia.png" tvg-id="udmurtia" tvg-name"Удмуртия"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Удмуртия
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/udmurtia.png" tvg-id="udmurtia" tvg-name"Удмуртия" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Удмуртия
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-vlg-izhsk-htlive.cdn.ngenix.net/hls/CH_R03_MYUDMURTIA/variant.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/yurgan.png" tvg-id="yurgan" tvg-name"Юрган"  audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Юрган
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/yurgan.png" tvg-id="yurgan" tvg-name"Юрган" audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Юрган
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:network-caching=3000
 https://rt-nw-komi-htlive.cdn.ngenix.net/hls/CH_R01_YURGAN/variant.m3u8
