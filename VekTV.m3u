@@ -1427,6 +1427,9 @@ https://tinyurl.com/45x3xrpm/chid276/mpegts
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/sovkino.png" tvg-id="sovkino" tvg-name"Советское кино" audio-track="rus" tvg-adaptive="auto" group-title="Кино и сериалы",Советское Кино
 #EXTVLCOPT:network-caching=3000
 http://stitch.teletarget.ru/vintera/sovietmovie/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MS8xMC8yMDI2IDc6NDk6NDcgUE0maGFzaF92YWx1ZT1qUlgvaDF3a2IvNkM1cWFnK3lqN2tBPT0mdmFsaWRtaW51dGVzPTQ4MA==
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/vhs-ka.png" tvg-id="vhs-ka" tvg-name"VHS-ка" audio-track="rus" tvg-adaptive="auto" group-title="Кино и сериалы",VHS-ка
+#EXTVLCOPT:network-caching=3000
+https://telluri.ru/video/vj/1123.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/retro-tv.png" tvg-id="retro-tv" audio-track="rus" tvg-name"Ретро" audio-track="rus" tvg-adaptive="auto" group-title="Кино и сериалы",Ретро
 #EXTVLCOPT:network-caching=3000
 https://stream8.cinerama.uz/1047/tracks-v1a1/mono.m3u8
