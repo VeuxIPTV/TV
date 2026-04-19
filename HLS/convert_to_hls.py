@@ -5,9 +5,9 @@ import glob
 import sys
 
 # ---------- НАСТРОЙКИ ----------
-ffmpeg_path = r'C:\Репозиторий github\TV\HLS\ffmpeg.exe'
-VIDEO_FILE  = r'C:\Репозиторий github\TV\HLS\Info.mp4'
-OUTPUT_DIR  = r'C:\Репозиторий github\TV\HLS\hls_stream'
+ffmpeg_path = r'C:\repo\ffmpeg.exe'
+VIDEO_FILE  = r'C:\repo\Info.mp4'
+OUTPUT_DIR  = r'C:\repo\hls_stream'
 RESOLUTION  = (1024, 576)
 FPS         = 30
 SEGMENT_TIME = 2
