@@ -4,7 +4,7 @@ import subprocess
 # ---------- НАСТРОЙКИ (УКАЖИТЕ СВОИ ПУТИ) ----------
 ffmpeg_path = r'C:\repo\ffmpeg.exe'   # путь к ffmpeg
 VIDEO_FILE  = r'C:\repo\Info.mp4'     # ваше видео
-OUTPUT_DIR  = 'hls_stream'                                  # папка для готовых HLS
+OUTPUT_DIR  = 'C:\repo\hls_stream'                                  # папка для готовых HLS
 RESOLUTION  = (1024, 576)
 FPS         = 30
 SEGMENT_TIME = 2
