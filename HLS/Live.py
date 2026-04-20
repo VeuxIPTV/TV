@@ -6,8 +6,8 @@ import threading
 from flask import Flask, send_from_directory, render_template_string, abort
 
 # ---------- НАСТРОЙКИ ----------
-VIDEO_FILE = r'C:\Репозиторий github\TV\HLS\Info.mp4'  # ваш видеофайл
-FFMPEG_PATH = r'C:\Репозиторий github\TV\HLS\ffmpeg.exe'
+VIDEO_FILE = r'C:\repo\Info.mp4'  # ваш видеофайл
+FFMPEG_PATH = r'C:\repo\ffmpeg.exe'
 HLS_DIR = r'C:\Репозиторий github\TV\HLS\hls_stream'
 RESOLUTION = (1024, 576)
 FPS = 30
