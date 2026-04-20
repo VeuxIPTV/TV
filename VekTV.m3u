@@ -4,8 +4,8 @@
 #EXTINF:-1 tvg-id="no_epg" group-title="ИНФО",Инфоканал
 http://192.168.245.42:8080/index.m3u8
 #EXTINF:-1 tvg-id="no_epg" group-title="ИНФО",Инфоканал ТЕСТ
-https://github.com/VeuxIPTV/TV/releases/download/VIDEO/My.Video.mp4
-#EXTINF:-1 tvg-id="no_epg" audio-track="rus" tvg-adaptive="auto" group-title="ИНФО",❗Обновление:19.04.2026❗
+http://localhost:8080/index.m3u8
+#EXTINF:-1 tvg-id="no_epg" audio-track="rus" tvg-adaptive="auto" group-title="ИНФО",❗Обновление:20.04.2026❗
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 https://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R05_KAMINTV/variant.m3u8
