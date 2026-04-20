@@ -2,7 +2,7 @@
 #EXTM3U x-tvg-url="https://iptvx.one/EPG_NOARCH"
 
 #EXTINF:-1 tvg-id="no_epg" group-title="ИНФО",Инфоканал
-https://f7506fa9903321.lhr.life/index.m3u8
+https://3b3e98a545e569.lhr.life/index.m3u8
 #EXTINF:-1 tvg-id="no_epg" audio-track="rus" tvg-adaptive="auto" group-title="ИНФО",❗Обновление:20.04.2026❗
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
