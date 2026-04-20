@@ -29,7 +29,7 @@ CHANNELS = [
         'hls_dir': r'C:\Репозиторий github\TV\HLS\hls_stream_1080i',
         'resolution': (1920, 1080),
         'fps': 50,
-        'port': 8080,
+        'port': 8081,
         'interlaced': True,
         'preset': 'ultrafast',
         'profile': 'high',
