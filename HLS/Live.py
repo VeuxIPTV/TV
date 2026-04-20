@@ -12,7 +12,7 @@ CHANNELS = [
         'ffmpeg_path': r'C:\repo\ffmpeg.exe',
         'hls_dir': r'C:\Репозиторий github\TV\HLS\hls_stream',
         'resolution': (1216, 678),
-        'fps': 25,
+        'fps': 50,
         'port': 8080,
         'interlaced': False,
         'preset': 'ultrafast',
