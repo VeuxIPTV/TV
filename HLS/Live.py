@@ -5,10 +5,9 @@ import glob
 import threading
 from flask import Flask, send_from_directory, render_template_string, abort
 
-# ---------- НАСТРОЙКИ КАНАЛОВ ----------
 CHANNELS = [
     {
-        'name': 'SD',
+        'name': 'Info',
         'video_file': r'C:\repo\Info.mp4',
         'ffmpeg_path': r'C:\repo\ffmpeg.exe',
         'hls_dir': r'C:\Репозиторий github\TV\HLS\hls_stream',
@@ -23,7 +22,7 @@ CHANNELS = [
         'ar': '44100'
     },
     {
-        'name': '1080i50',
+        'name': 'InfoHD',
         'video_file': r'C:\repo\Info.mp4',
         'ffmpeg_path': r'C:\repo\ffmpeg.exe',
         'hls_dir': r'C:\Репозиторий github\TV\HLS\hls_stream_1080i',
