@@ -205,4 +205,4 @@ if __name__ == '__main__':
     print(f"📺 Прямая ссылка для плеера: http://localhost:{PORT}/index.m3u8")
     print("Нажмите Ctrl+C для остановки.\n")
 
-    app.run(host='0.0.0.0', port=PORT, debug=False, threaded=True)
+    app.run(host='0.0.0.0', port=8080, debug=False, threaded=True)
