@@ -6,13 +6,13 @@ import threading
 from flask import Flask, send_from_directory, render_template_string, abort
 
 # ---------- НАСТРОЙКИ ----------
-VIDEO_FILE = r'C:\repo\Info.mp4'  # ваш видеофайл
+VIDEO_FILE = r'C:\repo\Info.mp4'
 FFMPEG_PATH = r'C:\repo\ffmpeg.exe'
 HLS_DIR = r'C:\Репозиторий github\TV\HLS\hls_stream'
 RESOLUTION = (1024, 576)
-FPS = 30
+FPS = 25
 SEGMENT_TIME = 2
-PLAYLIST_SIZE = 10          # сколько сегментов хранить в плейлисте (как в live)
+PLAYLIST_SIZE = 10
 PORT = 8080
 # ------------------------------
 
@@ -20,54 +20,38 @@ app = Flask(__name__)
 stream_process = None
 
 def start_ffmpeg_stream():
-    """Запускает FFmpeg в режиме live HLS (бесконечный цикл)."""
     global stream_process
     os.makedirs(HLS_DIR, exist_ok=True)
 
-    # Убиваем старый процесс, если есть
     if stream_process and stream_process.poll() is None:
         stream_process.terminate()
         stream_process.wait()
 
     cmd = [
         FFMPEG_PATH,
-        '-re',                          # читать с оригинальной скоростью
-        '-stream_loop', '-1',           # бесконечный повтор
-        '-i', VIDEO_FILE,
+        '-re', '-stream_loop', '-1', '-i', VIDEO_FILE,
         '-vf', f'scale={RESOLUTION[0]}:{RESOLUTION[1]}:force_original_aspect_ratio=decrease,pad={RESOLUTION[0]}:{RESOLUTION[1]}:(ow-iw)/2:(oh-ih)/2,fps={FPS},format=yuv420p',
-        '-c:v', 'libx264',
-        '-preset', 'ultrafast',
-        '-tune', 'zerolatency',
-        '-profile:v', 'baseline',
-        '-level', '3.0',
-        '-pix_fmt', 'yuv420p',
-        '-g', str(FPS * SEGMENT_TIME),
-        '-keyint_min', str(FPS * SEGMENT_TIME),
-        '-sc_threshold', '0',
-        '-c:a', 'aac',
-        '-b:a', '128k',
-        '-ar', '44100',
-        '-ac', '2',
-        '-f', 'hls',
-        '-hls_time', str(SEGMENT_TIME),
-        '-hls_list_size', str(PLAYLIST_SIZE),
+        '-c:v', 'libx264', '-preset', 'ultrafast', '-tune', 'zerolatency',
+        '-profile:v', 'baseline', '-level', '3.0', '-pix_fmt', 'yuv420p',
+        '-g', str(FPS * SEGMENT_TIME), '-keyint_min', str(FPS * SEGMENT_TIME), '-sc_threshold', '0',
+        '-c:a', 'aac', '-b:a', '128k', '-ar', '44100', '-ac', '2',
+        '-f', 'hls', '-hls_time', str(SEGMENT_TIME), '-hls_list_size', str(PLAYLIST_SIZE),
         '-hls_flags', 'delete_segments+append_list+omit_endlist',
         '-hls_segment_type', 'mpegts',
         '-hls_segment_filename', os.path.join(HLS_DIR, 'segment_%03d.ts'),
         os.path.join(HLS_DIR, 'index.m3u8')
     ]
     stream_process = subprocess.Popen(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-    print(f"[STREAM] FFmpeg запущен, сегменты будут в {HLS_DIR}")
+    print(f"[STREAM] FFmpeg запущен, сегменты в {HLS_DIR}")
 
 @app.route('/')
 def index():
-    """Тестовая страница с плеером и диагностикой."""
-    stream_url = f"/index.m3u8"
+    stream_url = "/index.m3u8"
     html = '''
     <!DOCTYPE html>
     <html>
     <head>
-        <title>Live HLS Test</title>
+        <title>Live HLS 576p25</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <style>
@@ -82,7 +66,7 @@ def index():
     </head>
     <body>
         <div class="box">
-            <h2>🎬 Live HLS Stream (бесконечный)</h2>
+            <h2>🎬 Live HLS 576p @25fps</h2>
             <p>Статус: <span id="status" class="status">Проверка...</span></p>
             <video id="player" controls autoplay muted></video>
             <button onclick="reloadPlayer()">🔄 Перезапустить плеер</button>
@@ -170,7 +154,6 @@ def status():
     }
 
 def monitor_ffmpeg():
-    """Следит, чтобы FFmpeg всегда работал."""
     while True:
         time.sleep(5)
         if stream_process and stream_process.poll() is not None:
@@ -179,22 +162,18 @@ def monitor_ffmpeg():
 
 if __name__ == '__main__':
     print("=" * 60)
-    print("🚀 ЗАПУСК LIVE HLS СЕРВЕРА")
+    print("🚀 ЗАПУСК LIVE HLS 576p25")
     print(f"📁 Папка сегментов: {HLS_DIR}")
+    print(f"🌐 Порт: {PORT}")
     print("=" * 60)
 
-    # Проверка наличия видео
     if not os.path.exists(VIDEO_FILE):
         print(f"❌ Видеофайл не найден: {VIDEO_FILE}")
         exit(1)
 
-    # Запускаем FFmpeg
     start_ffmpeg_stream()
-
-    # Мониторинг в фоне
     threading.Thread(target=monitor_ffmpeg, daemon=True).start()
 
-    # Ждём появления первого сегмента (чтобы не было 404 при первом запросе)
     print("[WAIT] Ожидание первого сегмента...")
     for _ in range(30):
         if glob.glob(os.path.join(HLS_DIR, 'segment_*.ts')):
