@@ -1,9 +1,9 @@
 import subprocess
 import os
 
-VIDEO_FILE = r'C:\Репозиторий github\TV\HLS\Info.mp4'
-OUTPUT_DIR = r'C:\Репозиторий github\TV\HLS\hls_vod'
-FFMPEG_PATH = r'C:\Репозиторий github\TV\HLS\ffmpeg.exe'
+VIDEO_FILE = r'C:\repo\Info.mp4'
+OUTPUT_DIR = r'C:\Репозиторий github\TV\HLS\hls_stream'
+FFMPEG_PATH = r'C:\repo\ffmpeg.exe'
 RESOLUTION = (1024, 576)
 FPS = 25
 SEGMENT_TIME = 2
