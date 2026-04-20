@@ -9,7 +9,7 @@ from flask import Flask, send_from_directory, render_template_string, abort
 VIDEO_FILE = r'C:\repo\Info.mp4'
 FFMPEG_PATH = r'C:\repo\ffmpeg.exe'
 HLS_DIR = r'C:\Репозиторий github\TV\HLS\hls_stream'
-RESOLUTION = (1216, 678)
+RESOLUTION = (1024, 576)
 FPS = 25                       # Стандарт PAL – 25 кадров/с
 SEGMENT_TIME = 2
 PLAYLIST_SIZE = 10
