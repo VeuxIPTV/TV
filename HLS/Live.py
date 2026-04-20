@@ -24,8 +24,8 @@ CHANNELS = [
     },
     {
         'name': '1080i50',
-        'video_file': r'C:\Репозиторий github\TV\HLS\Info.mp4',
-        'ffmpeg_path': r'C:\Репозиторий github\TV\HLS\ffmpeg.exe',
+        'video_file': r'C:\repo\Info.mp4',
+        'ffmpeg_path': r'C:\repo\ffmpeg.exe',
         'hls_dir': r'C:\Репозиторий github\TV\HLS\hls_stream_1080i',
         'resolution': (1920, 1080),
         'fps': 50,
