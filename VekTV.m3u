@@ -2,9 +2,7 @@
 #EXTM3U x-tvg-url="https://iptvx.one/EPG_NOARCH"
 
 #EXTINF:-1 tvg-id="no_epg" group-title="ИНФО",Инфоканал
-http://192.168.245.42:8080/index.m3u8
-#EXTINF:-1 tvg-id="no_epg" group-title="ИНФО",Инфоканал ТЕСТ (Tunnel)
-http://69a6656815fddda2-95-85-253-100.serveousercontent.com/index.m3u8
+https://4e925456c0891ea4-95-179-27-111.serveousercontent.com/index.m3u8
 #EXTINF:-1 tvg-id="no_epg" audio-track="rus" tvg-adaptive="auto" group-title="ИНФО",❗Обновление:20.04.2026❗
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
@@ -1048,19 +1046,19 @@ https://vgtrkregion-reg.cdnvideo.ru/vgtrk/yaroslavl/russia24-sd/index.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/match-football1.png" tvg-id="match-football1" tvg-name"Матч! Футбол 1" audio-track="rus" tvg-adaptive="auto" group-title="Спортивные",Матч! Футбол 1
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-https://mhd128.iptv2022.com/p/RYysB9lVp4GW077fv9DB7g,1776668779/streaming/footbal1hd/324/1/tracks-v5a1/mono.m3u8
+https://mhd128.iptv2022.com/p/jIY46APUTqCKwYAE5RGkfw,1776759416/streaming/footbal1hd/324/1/tracks-v5a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/match-football2.png" tvg-id="match-football2" tvg-name"Матч! Футбол 2" audio-track="rus" tvg-adaptive="auto" group-title="Спортивные",Матч! Футбол 2
 #EXTVLCOPT:network-caching=3000                                                                                 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-https://mhd128.iptv2022.com/p/SSsMA7CZq-PKpJR1hXQVrw,1776668779/streaming/footbal2hd/324/1/tracks-v5a1/mono.m3u8
+https://mhd128.iptv2022.com/p/DUplUwujvjwYqd-pSf6FMA,1776759416/streaming/footbal2hd/324/1/tracks-v5a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/match-football3.png" tvg-id="match-football3" tvg-name"Матч! Футбол 3" audio-track="rus" tvg-adaptive="auto" group-title="Спортивные",Матч! Футбол 3
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-https://mhd128.iptv2022.com/p/SK2q4llXfbnEYkvuk3nzMQ,1776668779/streaming/footbal3hd/324/1/tracks-v5a1/mono.m3u8
+https://mhd128.iptv2022.com/p/h0nGDC8f9k8ZL7gSaucWWQ,1776759416/streaming/footbal3hd/324/1/tracks-v5a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/match-premiere.png" tvg-id="match-premier" tvg-name"Матч! Премьер HD" audio-track="rus" tvg-adaptive="auto" group-title="Спортивные",Матч! Премьер HD
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-https://mhd128.iptv2022.com/p/d1Dc2BS7Hnr3cR7xRBL3HA,1776668779/streaming/match_premyerhd/324/1/tracks-v5a1/mono.m3u8
+https://mhd128.iptv2022.com/p/Vh_XTHtml1bD8lnEAtfYAA,1776759416/streaming/match_premyerhd/324/1/tracks-v5a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/match-premiere.png" tvg-id="match-premier" tvg-name"Матч! Премьер" audio-track="rus" tvg-adaptive="auto" group-title="Спортивные",Матч! Премьер
 #EXTVLCOPT:network-caching=3000
 https://flussonic.mkpnet.ru/tv-ee3651e1e7ce5cbf/video.m3u8
@@ -1144,11 +1142,11 @@ http://live-3.otcnet.ru/sportivny/index.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/footbolny.png" tvg-id="footbolny" tvg-name"Футбольный" audio-track="rus" tvg-adaptive="auto" group-title="Спортивные",Мяч
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-https://mhd128.iptv2022.com/p/eyb5ZvD9XGPfScjI2w4Glg,1776668780/streaming/footbolniyhd/324/1/index.m3u8
+https://mhd128.iptv2022.com/p/7QYxu2-Oefid6EjmSoEmMQ,1776759416/streaming/footbolniyhd/324/1/index.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/xokkejny.png" tvg-id="xokkejny" tvg-name"Хоккейный HD" audio-track="rus" tvg-adaptive="auto" group-title="Спортивные",Хоккей ТВ
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-https://mhd128.iptv2022.com/p/G6EFw077xYqIedgpabEn1Q,1776668780/streaming/hokkeyniy/324/1/index.m3u8
+https://mhd128.iptv2022.com/p/EUqhqCkM3u1Sf4uHgi0_TQ,1776759416/streaming/hokkeyniy/324/1/index.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/tochka-otryva.png" tvg-id="tochka-otryva" tvg-name"Точка отрыва" audio-track="rus" tvg-adaptive="auto" group-title="Спортивные",Точка Отрыва
 #EXTVLCOPT:network-caching=3000
 https://stream8.cinerama.uz/1031/tracks-v1a1/mono.m3u8
