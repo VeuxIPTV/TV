@@ -1,5 +1,5 @@
 @echo off
-title Tunnel Serveo (авто-перезапуск)
+title Tunnel Serveo
 
 taskkill /f /im ssh.exe 2>nul
 timeout /t 3
