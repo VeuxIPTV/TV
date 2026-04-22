@@ -1109,12 +1109,18 @@ https://bl.webcaster.pro/media/playlist/free_672d700f2f9510be660253786e4406fe_hd
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/m1global.png" tvg-id="m1global" tvg-name"MMA-TV" audio-track="rus" tvg-adaptive="auto" group-title="Спортивные",MMA-TV.COM
 #EXTVLCOPT:network-caching=3000
 https://a3569457567-s70378.cdn.ngenix.net/m1_global/1/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/fightclub.png" tvg-id="fightclub" tvg-name"Fight Club" audio-track="rus" tvg-adaptive="auto" group-title="Спортивные",Fight Club
+#EXTVLCOPT:network-caching=3000
+http://193.25.8.59:8000/box
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/kxl.png" tvg-id="kxl" tvg-name"KHL" audio-track="rus" tvg-adaptive="auto" group-title="Спортивные",KHL
 #EXTVLCOPT:network-caching=3000
 https://a3569457567-s70378.cdn.ngenix.net/kxl/1/index.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/kxl-hd.png" tvg-id="kxl-hd" tvg-name"KHL Prime" audio-track="rus" tvg-adaptive="auto" group-title="Спортивные",KHL Prime
 #EXTVLCOPT:network-caching=3000
 https://stream8.cinerama.uz/1422/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/extreme-sports-ru.png" tvg-id="extreme-sports-ru" tvg-name"Extreme Sports [RU]" audio-track="rus" tvg-adaptive="auto" group-title="Спортивные",Extreme Sports
+#EXTVLCOPT:network-caching=3000
+https://flussonic.mkpnet.ru/tv-1a9441fd32d63873/video.m3u8
 #EXTINF:-1 tvg-id="russky-ekstrim" tvg-logo="https://epg.iptvx.one/picons/russky-ekstrim.png" tvg-name"Russian Extreme HD" audio-track="rus" tvg-adaptive="auto" group-title="Спортивные",Russia Extreme HD
 #EXTVLCOPT:network-caching=3000
 http://stream-msk-06.ott.tricolor.tv/dtv/id294_MSKSG-PVR-1--HD_Russkiy_Extreme/03/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI1MjA0MDkwNTk0OTM0NSIsImV4cCI6MTc3NjU5ODczNCwiaHdpZCI6ImYxY2I2OGZiZDVjMzI5NTA3ZGQ1ZjE2M2MzMjlkMjYyMDNhYmViZTc0M2YyOTc4ZmYwZDM2ZmRlMmJhMjE0ZGEiLCJsYXN0X3JlcV9kYXRlIjoxNzc1OTkzOTM0LCJzZXNzaW9uX2lkIjoiOGQwMGMzNjY5NWQwNzcwYjkwYzQwYTk5OWI0NTM0YTEiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.ld33jQ-VDOjuf2P8GPMyVi_o5Eof-yGsvcSW7FL6uPM
@@ -1156,9 +1162,6 @@ http://194.143.148.28:8080/Mir24/mpegts
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/trace-sport-stars-ru.png" tvg-id="trace-sport-stars-ru" tvg-name"Trace Sport Stars [RU]" audio-track="rus" tvg-adaptive="auto" group-title="Спортивные",Trace Sport Stars
 #EXTVLCOPT:network-caching=3000
 https://stream8.cinerama.uz/1274/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/extreme-sports-ru.png" tvg-id="extreme-sports-ru" tvg-name"Extreme Sports [RU]" audio-track="rus" tvg-adaptive="auto" group-title="Спортивные",Extreme Sports
-#EXTVLCOPT:network-caching=3000
-https://flussonic.mkpnet.ru/tv-1a9441fd32d63873/video.m3u8
 #EXTINF:-1 tvg-id="voleybol" tvg-logo="https://epg.iptvx.one/picons/voleybol.png" tvg-name"Волейбол" audio-track="rus" tvg-adaptive="auto" group-title="Спортивные",Волейбол
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -1450,6 +1453,9 @@ https://stream8.cinerama.uz/1444/tracks-v1a1/mono.m3u8
 #EXTVLCOPT:network-caching=3000
 http://188.225.31.197/bpk-tv/000000078/tve/index.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/filmbox-ru.png" tvg-id="filmbox-ru" tvg-name"FilmBox Russia" audio-track="rus" tvg-adaptive="auto" group-title="Кино и сериалы",Filmbox
+#EXTVLCOPT:network-caching=3000
+https://a3569457567-s70378.cdn.ngenix.net/filmbox/1/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/filmbox-arthouse.png" tvg-id="filmbox-arthouse" tvg-name"FilmBox ArtHouse" audio-track="rus" tvg-adaptive="auto" group-title="Кино и сериалы",Filmbox Arthouse
 #EXTVLCOPT:network-caching=3000
 https://a3569457567-s70378.cdn.ngenix.net/filmbox/1/index.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/zee-tv.png" tvg-id="zee-tv" tvg-name"Индия" audio-track="rus" tvg-adaptive="auto" group-title="Кино и сериалы",Индия
