@@ -3,7 +3,7 @@
 
 #EXTINF:-1 tvg-id="no_epg" group-title="ИНФО",Инфоканал
 https://veuxtv.serveousercontent.com/index.m3u8
-#EXTINF:-1 tvg-id="no_epg" audio-track="rus" tvg-adaptive="auto" group-title="ИНФО",❗Обновление:21.04.2026❗
+#EXTINF:-1 tvg-id="no_epg" audio-track="rus" tvg-adaptive="auto" group-title="ИНФО",❗Обновление:22.04.2026❗
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 https://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R05_KAMINTV/variant.m3u8
