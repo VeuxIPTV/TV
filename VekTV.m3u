@@ -3,7 +3,7 @@
 
 #EXTINF:-1 tvg-id="no_epg" group-title="ИНФО",Инфоканал
 https://veuxtv.serveousercontent.com/index.m3u8
-#EXTINF:-1 tvg-id="no_epg" audio-track="rus" tvg-adaptive="auto" group-title="ИНФО",❗Обновление:24.04.2026❗
+#EXTINF:-1 tvg-id="no_epg" audio-track="rus" tvg-adaptive="auto" group-title="ИНФО",❗Обновление:26.04.2026❗
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 https://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R05_KAMINTV/variant.m3u8
@@ -786,16 +786,10 @@ https://vgtrkregion-reg.cdnvideo.ru/vgtrk/lipetsk/russia1-hd/index.m3u8
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/HO3gcQAHbok/russia1-sd/index.m3u8
 #EXTINF:-1 audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Россия 1 (Магадан)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/magadan/russia1-hd/index.m3u8
-#EXTINF:-1 audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Россия 1 (Майкоп)
-https://vgtrkregion-reg.cdnvideo.ru/vgtrk/maykop/russia1-hd/index.m3u8
 #EXTINF:-1 audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Россия 1 (Махачкала)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/mahachkala/russia1-sd/index.m3u8
 #EXTINF:-1 audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Россия 1 (Мурманск)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/murmansk/russia1-sd/index.m3u8
-#EXTINF:-1 audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Россия 1 (Назрань)
-https://vgtrkregion-reg.cdnvideo.ru/vgtrk/nazran/russia1-sd/index.m3u8
-#EXTINF:-1 audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Россия 1 (Нальчик)
-https://vgtrkregion-reg.cdnvideo.ru/vgtrk/nalchik/russia1-hd/index.m3u8
 #EXTINF:-1 audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Россия 1 (Нижний Новгород)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/nigniynovgorod/russia1-sd/index.m3u8
 #EXTINF:-1 audio-track="rus" tvg-adaptive="auto" tvg-audio-codec="aac" group-title="Региональные",Россия 1 (Новосибирск)
@@ -1046,19 +1040,19 @@ https://vgtrkregion-reg.cdnvideo.ru/vgtrk/yaroslavl/russia24-sd/index.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/match-football1.png" tvg-id="match-football1" tvg-name"Матч! Футбол 1" audio-track="rus" tvg-adaptive="auto" group-title="Спортивные",Матч! Футбол 1
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-https://mhd128.iptv2022.com/p/ztufFVQ-yNxMtCPTDmQYug,1777100257/streaming/footbal1hd/324/1/tracks-v5a1/mono.m3u8
+https://mhd128.iptv2022.com/p/9hdRtgQLzewTiD1IhtkCqg,1777273295/streaming/footbal1hd/324/1/tracks-v5a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/match-football2.png" tvg-id="match-football2" tvg-name"Матч! Футбол 2" audio-track="rus" tvg-adaptive="auto" group-title="Спортивные",Матч! Футбол 2
 #EXTVLCOPT:network-caching=3000                                                                                 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-https://mhd128.iptv2022.com/p/Kz7xey_tANMmPEic9nVqPg,1777100257/streaming/footbal2hd/324/1/tracks-v5a1/mono.m3u8
+https://mhd128.iptv2022.com/p/je8QeyiAJPw8krCi1AiWHA,1777273295/streaming/footbal2hd/324/1/tracks-v5a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/match-football3.png" tvg-id="match-football3" tvg-name"Матч! Футбол 3" audio-track="rus" tvg-adaptive="auto" group-title="Спортивные",Матч! Футбол 3
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-https://mhd128.iptv2022.com/p/fMOzVGY6djWi9ThHHw7M0g,1777100257/streaming/footbal3hd/324/1/tracks-v5a1/mono.m3u8
+https://mhd128.iptv2022.com/p/_a1csXVIzgqPYVx9TQdd7A,1777273295/streaming/footbal3hd/324/1/tracks-v5a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/match-premiere.png" tvg-id="match-premier" tvg-name"Матч! Премьер HD" audio-track="rus" tvg-adaptive="auto" group-title="Спортивные",Матч! Премьер HD
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-https://mhd128.iptv2022.com/p/ErNH8swGjSe95q5m4X7dLQ,1777100257/streaming/match_premyerhd/324/1/tracks-v5a1/mono.m3u8
+https://mhd128.iptv2022.com/p/LZfNVQ8hC7MOmoM1sxS4gA,1777273295/streaming/match_premyerhd/324/1/tracks-v5a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/match-premiere.png" tvg-id="match-premier" tvg-name"Матч! Премьер" audio-track="rus" tvg-adaptive="auto" group-title="Спортивные",Матч! Премьер
 #EXTVLCOPT:network-caching=3000
 https://flussonic.mkpnet.ru/tv-ee3651e1e7ce5cbf/video.m3u8
@@ -1148,11 +1142,11 @@ http://live-3.otcnet.ru/sportivny/index.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/footbolny.png" tvg-id="footbolny" tvg-name"Футбольный" audio-track="rus" tvg-adaptive="auto" group-title="Спортивные",Мяч
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-https://mhd128.iptv2022.com/p/TlYejqCsZ0UMXn6X-S6tkA,1777100257/streaming/footbolniyhd/324/1/index.m3u8
+https://mhd128.iptv2022.com/p/SXHrdbOrv7P8_L3z9IFfjQ,1777273295/streaming/footbolniyhd/324/1/index.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/xokkejny.png" tvg-id="xokkejny" tvg-name"Хоккейный HD" audio-track="rus" tvg-adaptive="auto" group-title="Спортивные",Хоккей ТВ
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-https://mhd128.iptv2022.com/p/VqeoSyLy0LbrtEcJgrnFRg,1777100257/streaming/hokkeyniy/324/1/index.m3u8
+https://mhd128.iptv2022.com/p/r3iTqW4VXfc3CuB4HOUb9w,1777273295/streaming/hokkeyniy/324/1/index.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/tochka-otryva.png" tvg-id="tochka-otryva" tvg-name"Точка отрыва" audio-track="rus" tvg-adaptive="auto" group-title="Спортивные",Точка Отрыва
 #EXTVLCOPT:network-caching=3000
 https://stream8.cinerama.uz/1031/tracks-v1a1/mono.m3u8
@@ -1174,7 +1168,7 @@ https://a3285272783-s80718.cdn.ngenix.net//hls//CH_KINOPREMIERAHD//video_800x450
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/kinosemia.png" tvg-id="kinosemiya" tvg-name"Киносемья" audio-track="rus" tvg-adaptive="auto" group-title="Кино и сериалы",Киносемья
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-https://mhd128.iptv2022.com/p/W9xse4bvRrPjer7HIRRDug,1777100254/streaming/film-families/324/1/tracks-v5a1/mono.m3u8
+https://mhd128.iptv2022.com/p/ar_UibqnEtenFHPUHMSAXw,1777273291/streaming/film-families/324/1/tracks-v5a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/kinosvidanie.png" tvg-id="kinosvidanie" tvg-name"Киносвидание" audio-track="rus" tvg-adaptive="auto" group-title="Кино и сериалы",Киносвидание
 #EXTVLCOPT:network-caching=3000
 https://a3569457567-s70378.cdn.ngenix.net/kinoklub/1/index.m3u8
@@ -1190,27 +1184,27 @@ https://a3285272783-s80718.cdn.ngenix.net//hls//CH_KINOMIXHD//video_800x450_avc1
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/kinoxit.png" tvg-id="kinoxit" tvg-name"Кинохит" audio-track="rus" tvg-adaptive="auto" group-title="Кино и сериалы",Кинохит
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-https://mhd128.iptv2022.com/p/IxLmyTOa7GcQlSueW8fRsA,1777100254/streaming/film-hit/324/1/tracks-v5a1/mono.m3u8
+https://mhd128.iptv2022.com/p/sLUVrDbSMSlNbCAzcebPDQ,1777273291/streaming/film-hit/324/1/tracks-v5a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/kinouzhas.png" tvg-id="kinouzhas" tvg-name"Киноужас" audio-track="rus" tvg-adaptive="auto" group-title="Кино и сериалы",Киноужас
 #EXTVLCOPT:network-caching=3000
 https://a3569457567-s70378.cdn.ngenix.net/kinouzhas/1/index.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/indijskoe-kino.png" tvg-id="indiyskoe-kino" tvg-name"Индийское кино" audio-track="rus" tvg-adaptive="auto" group-title="Кино и сериалы",Индийское кино
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-https://mhd128.iptv2022.com/p/TcRq-UrzRMZPTMAEkOJbpA,1777100254/streaming/india/324/1/tracks-v5a1/mono.m3u8
+https://mhd128.iptv2022.com/p/pUFOGU0JtpFZMFs5_OqqoA,1777273291/streaming/india/324/1/tracks-v5a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/nashe-novoe-kino.png" tvg-id="nashe-novoe-kino" tvg-name"Наше новое кино" audio-track="rus" tvg-adaptive="auto" group-title="Кино и сериалы",Наше Новое Кино
 #EXTVLCOPT:network-caching=3000
 https://a3569457567-s70378.cdn.ngenix.net/nashe_novoe_kino/1/index.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/rodnoe-kino.png" tvg-id="rodnoe-kino" tvg-name"Родное кино" audio-track="rus" tvg-adaptive="auto" group-title="Кино и сериалы",Родное кино
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-https://mhd128.iptv2022.com/p/rI-faTizOLx1Pi8tYedMxA,1777100254/streaming/rodnoe/324/1/tracks-v5a1/mono.m3u8
+https://mhd128.iptv2022.com/p/FmU2kDiv-S6-QPGMQxtSvA,1777273291/streaming/rodnoe/324/1/tracks-v5a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/muzhskoe-kino.png" tvg-id="muzhskoe-kino" tvg-name"Мужское кино" audio-track="rus" tvg-adaptive="auto" group-title="Кино и сериалы",Мужское кино
 #EXTVLCOPT:network-caching=3000
 https://a3285272783-s80718.cdn.ngenix.net/hls/CH_MUJSKOE_KINOHD/video_1920x1080_avc1/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/klassika-kino.png" tvg-id="klassika-kino" catchup="append" catchup-days="7" catchup-source="&offset=${offset}" tvg-name"Классика Кино" audio-track="rus" tvg-adaptive="auto" group-title="Кино и сериалы",Классика Кино
 #EXTVLCOPT:network-caching=3000
-http://api.peers.tv/timeshift/klassikakino/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzcxMDAyNjIsImlhdCI6MTc3NzAxMzg2MiwiY2lkIjo2LCJ1aWQiOjEwMzYzNjA3OTksInJlZyI6ZmFsc2UsImlwIjoyNDU0MTIwMzc5LCJhZHVsdCI6ZmFsc2V9.txDYkBrdpxiwbeR_3vEQxd4j7ZD6ajsxEBJgQAe_fP0&offset=10
+http://api.peers.tv/timeshift/klassikakino/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzcyNzMzMDksImlhdCI6MTc3NzE4NjkwOSwiY2lkIjo2LCJ1aWQiOjEwMzcwNDM5ODQsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.upEbQAnQelLYpeoVY6aGAIj073WxbxbAWxAvtB4gWKA&offset=10
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/kinosat.png" tvg-id="kinosat" tvg-name"Киносат" audio-track="rus" tvg-adaptive="auto" group-title="Кино и сериалы",Киносат
 #EXTVLCOPT:network-caching=3000
 http://31.210.208.171:8080/kinoman/index.m3u8?token=+W2MSER
@@ -1220,12 +1214,17 @@ https://stitch.teletarget.ru/vintera/movieseason/1764950731551101ef187a38512cd3d
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/iptvxone.png" tvg-id="no_epg_cinema" tvg-name"NO EPG Cinema (заглушка)" audio-track="rus" tvg-adaptive="auto" group-title="Кино и сериалы",КиноМеню
 #EXTVLCOPT:network-caching=3000
 http://stitch.teletarget.ru/vintera/kinomenu/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MS8xMC8yMDI2IDc6NDk6NDcgUE0maGFzaF92YWx1ZT1qUlgvaDF3a2IvNkM1cWFnK3lqN2tBPT0mdmFsaWRtaW51dGVzPTQ4MA==
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/kinokult.png" tvg-id="kinokult" tvg-name"КиноКульт" audio-track="rus" tvg-adaptive="auto" group-title="Кино и сериалы",КиноКульт
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:network-caching=3000
+https://rec101.24h.tv/mbrjwt/39a1be86bb5f3479e52a617b8e0730a16f6b4f78-8527-0-str571070-5-1605596548-1777192480-e128-e6_ZfD9Yt5yn9xIT9dkrVNikNmpFgrjLTXig043gQiA/ch8527-0/ch8527-0.m3u8?ml=true
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/kinopokaz.png" tvg-id="kinopokaz" tvg-name"Кинопоказ" audio-track="rus" tvg-adaptive="auto" group-title="Кино и сериалы",Кинопоказ
 #EXTVLCOPT:network-caching=3000
 http://46.53.208.4/live/285-req_offset_28000000-req_window_0-1k_v5.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/nash-kinopokaz.png" tvg-id="nash-kinopokaz" tvg-name"Наш Кинопоказ" audio-track="rus" tvg-adaptive="auto" group-title="Кино и сериалы",Наш Кинопоказ
 #EXTVLCOPT:network-caching=3000
-http://stream-msk-14.ott.tricolor.tv/dtv/id646_MSKSG-PVR-1--Nash_kinopokaz_HD/03/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI1MjA0MDkwNTk0OTM0NSIsImV4cCI6MTc3NjU5ODczNCwiaHdpZCI6ImYxY2I2OGZiZDVjMzI5NTA3ZGQ1ZjE2M2MzMjlkMjYyMDNhYmViZTc0M2YyOTc4ZmYwZDM2ZmRlMmJhMjE0ZGEiLCJsYXN0X3JlcV9kYXRlIjoxNzc1OTkzOTM0LCJzZXNzaW9uX2lkIjoiOGQwMGMzNjY5NWQwNzcwYjkwYzQwYTk5OWI0NTM0YTEiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.ld33jQ-VDOjuf2P8GPMyVi_o5Eof-yGsvcSW7FL6uPM
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
+https://mhd128.iptv2022.com/p/7arrBdqndEei9QYw65ExZQ,1777273291/streaming/nashpokaz/324/1/tracks-v5a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/premialnoe-hd.png" tvg-id="premialnoe-hd" tvg-name"Премиальное HD" audio-track="rus" tvg-adaptive="auto" group-title="Кино и сериалы",Премиальное
 #EXTVLCOPT:network-caching=3000
 http://stream-msk-05.ott.tricolor.tv/dtv/id602_MSKSG-PVR-1--Premialnoe_HD/03/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI1MjA0MDkwNTk0OTM0NSIsImV4cCI6MTc3NjU5ODczNCwiaHdpZCI6ImYxY2I2OGZiZDVjMzI5NTA3ZGQ1ZjE2M2MzMjlkMjYyMDNhYmViZTc0M2YyOTc4ZmYwZDM2ZmRlMmJhMjE0ZGEiLCJsYXN0X3JlcV9kYXRlIjoxNzc1OTkzOTM0LCJzZXNzaW9uX2lkIjoiOGQwMGMzNjY5NWQwNzcwYjkwYzQwYTk5OWI0NTM0YTEiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.ld33jQ-VDOjuf2P8GPMyVi_o5Eof-yGsvcSW7FL6uPM
@@ -1249,22 +1248,26 @@ http://stream-msk-12.ott.tricolor.tv/dtv/id871_MSKSG-PVR-1--Kriminalnoe_HD/01/pl
 http://stream-msk-06.ott.tricolor.tv/dtv/id513_MSKSG-PVR-1--Komediinoe/03/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI1MjA0MDkwNTk0OTM0NSIsImV4cCI6MTc3NjU5ODczNCwiaHdpZCI6ImYxY2I2OGZiZDVjMzI5NTA3ZGQ1ZjE2M2MzMjlkMjYyMDNhYmViZTc0M2YyOTc4ZmYwZDM2ZmRlMmJhMjE0ZGEiLCJsYXN0X3JlcV9kYXRlIjoxNzc1OTkzOTM0LCJzZXNzaW9uX2lkIjoiOGQwMGMzNjY5NWQwNzcwYjkwYzQwYTk5OWI0NTM0YTEiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.ld33jQ-VDOjuf2P8GPMyVi_o5Eof-yGsvcSW7FL6uPM
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/nashe-muzhskoe-hd.png" tvg-id="nashe-muzhskoe" tvg-name"Наше Мужское" audio-track="rus" tvg-adaptive="auto" group-title="Кино и сериалы",Наше Мужское
 #EXTVLCOPT:network-caching=3000
-http://stream-msk-07.ott.tricolor.tv/dtv/id643_MSKSG-PVR-1--Nashe_Muzhskoe_HD/03/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI1MjA0MDkwNTk0OTM0NSIsImV4cCI6MTc3NjU5ODczNCwiaHdpZCI6ImYxY2I2OGZiZDVjMzI5NTA3ZGQ1ZjE2M2MzMjlkMjYyMDNhYmViZTc0M2YyOTc4ZmYwZDM2ZmRlMmJhMjE0ZGEiLCJsYXN0X3JlcV9kYXRlIjoxNzc1OTkzOTM0LCJzZXNzaW9uX2lkIjoiOGQwMGMzNjY5NWQwNzcwYjkwYzQwYTk5OWI0NTM0YTEiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.ld33jQ-VDOjuf2P8GPMyVi_o5Eof-yGsvcSW7FL6uPM
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
+https://mhd128.iptv2022.com/p/oKguU9GUKGsiJXEW6RN9dQ,1777273291/streaming/nashemuzskoe/324/1/tracks-v5a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/scream.png" tvg-id="scream" tvg-name"Scream" audio-track="rus" tvg-adaptive="auto" group-title="Кино и сериалы",Scream
 #EXTVLCOPT:network-caching=3000
 http://stream-msk-14.ott.tricolor.tv/dtv/id895_MSKSG-PVR-1--Scream/03/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI1MjA0MDkwNTk0OTM0NSIsImV4cCI6MTc3NjU5ODczNCwiaHdpZCI6ImYxY2I2OGZiZDVjMzI5NTA3ZGQ1ZjE2M2MzMjlkMjYyMDNhYmViZTc0M2YyOTc4ZmYwZDM2ZmRlMmJhMjE0ZGEiLCJsYXN0X3JlcV9kYXRlIjoxNzc1OTkzOTM0LCJzZXNzaW9uX2lkIjoiOGQwMGMzNjY5NWQwNzcwYjkwYzQwYTk5OWI0NTM0YTEiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.ld33jQ-VDOjuf2P8GPMyVi_o5Eof-yGsvcSW7FL6uPM
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/blokbaster.png" tvg-id="blokbaster" tvg-name"Блокбастер" audio-track="rus" tvg-adaptive="auto" group-title="Кино и сериалы",Блокбастер
 #EXTVLCOPT:network-caching=3000
-http://stream-msk-01.ott.tricolor.tv/dtv/id645_MSKSG-PVR-1--Blokbaster_HD/03/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI1MjA0MDkwNTk0OTM0NSIsImV4cCI6MTc3NjU5ODczNCwiaHdpZCI6ImYxY2I2OGZiZDVjMzI5NTA3ZGQ1ZjE2M2MzMjlkMjYyMDNhYmViZTc0M2YyOTc4ZmYwZDM2ZmRlMmJhMjE0ZGEiLCJsYXN0X3JlcV9kYXRlIjoxNzc1OTkzOTM0LCJzZXNzaW9uX2lkIjoiOGQwMGMzNjY5NWQwNzcwYjkwYzQwYTk5OWI0NTM0YTEiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.ld33jQ-VDOjuf2P8GPMyVi_o5Eof-yGsvcSW7FL6uPM
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
+https://mhd128.iptv2022.com/p/7soOXgdlDKQ_H3mtJgZJ9Q,1777273291/streaming/blokbaster/324/1/tracks-v5a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/khit.png" tvg-id="khit" tvg-name"Хит" audio-track="rus" tvg-adaptive="auto" group-title="Кино и сериалы",Хит
 #EXTVLCOPT:network-caching=3000
-http://stream-msk-09.ott.tricolor.tv/dtv/id644_MSKSG-PVR-1--Hit_HD/03/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI1MjA0MDkwNTk0OTM0NSIsImV4cCI6MTc3NjU5ODczNCwiaHdpZCI6ImYxY2I2OGZiZDVjMzI5NTA3ZGQ1ZjE2M2MzMjlkMjYyMDNhYmViZTc0M2YyOTc4ZmYwZDM2ZmRlMmJhMjE0ZGEiLCJsYXN0X3JlcV9kYXRlIjoxNzc1OTkzOTM0LCJzZXNzaW9uX2lkIjoiOGQwMGMzNjY5NWQwNzcwYjkwYzQwYTk5OWI0NTM0YTEiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.ld33jQ-VDOjuf2P8GPMyVi_o5Eof-yGsvcSW7FL6uPM
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
+https://mhd128.iptv2022.com/p/atLCa-cKQwUIyWDW96LErg,1777273291/streaming/hit/324/1/tracks-v5a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/lavstori.png" tvg-id="lavstori" tvg-name"Лавстори" audio-track="rus" tvg-adaptive="auto" group-title="Кино и сериалы",Лавстори
 #EXTVLCOPT:network-caching=3000
 https://stream-msk-14.ott.tricolor.tv/dtv/id931_MSKSG-PVR-1--Lovestory/01/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI1MjA0MDkwNTk0OTM0NSIsImV4cCI6MTc3NjU5ODczNCwiaHdpZCI6ImYxY2I2OGZiZDVjMzI5NTA3ZGQ1ZjE2M2MzMjlkMjYyMDNhYmViZTc0M2YyOTc4ZmYwZDM2ZmRlMmJhMjE0ZGEiLCJsYXN0X3JlcV9kYXRlIjoxNzc1OTkzOTM0LCJzZXNzaW9uX2lkIjoiOGQwMGMzNjY5NWQwNzcwYjkwYzQwYTk5OWI0NTM0YTEiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.ld33jQ-VDOjuf2P8GPMyVi_o5Eof-yGsvcSW7FL6uPM
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/pro-lyubov.png" tvg-id="pro-lyubov" tvg-name"Про Любовь" audio-track="rus" tvg-adaptive="auto" group-title="Кино и сериалы",Про Любовь
 #EXTVLCOPT:network-caching=3000
-http://stream-msk-12.ott.tricolor.tv/dtv/id647_MSKSG-PVR-1--Pro_Love_HD/03/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI1MjA0MDkwNTk0OTM0NSIsImV4cCI6MTc3NjU5ODczNCwiaHdpZCI6ImYxY2I2OGZiZDVjMzI5NTA3ZGQ1ZjE2M2MzMjlkMjYyMDNhYmViZTc0M2YyOTc4ZmYwZDM2ZmRlMmJhMjE0ZGEiLCJsYXN0X3JlcV9kYXRlIjoxNzc1OTkzOTM0LCJzZXNzaW9uX2lkIjoiOGQwMGMzNjY5NWQwNzcwYjkwYzQwYTk5OWI0NTM0YTEiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.ld33jQ-VDOjuf2P8GPMyVi_o5Eof-yGsvcSW7FL6uPM
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
+https://mhd128.iptv2022.com/p/h-jR9TtMrJRXaBATHxouKA,1777273291/streaming/prolubov/324/1/tracks-v5a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/patriot.png" tvg-id="patriot" tvg-name"Патриот" audio-track="rus" tvg-adaptive="auto" group-title="Кино и сериалы",Патриот
 #EXTVLCOPT:network-caching=3000
 http://catchup.videoline.ru/asvtv/index.m3u8
@@ -1373,7 +1376,7 @@ https://a3569457567-s70378.cdn.ngenix.net/illusion_plus/1/index.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/kinoliving.png" tvg-id="kinoliving" tvg-name"KinoLiving" audio-track="rus" tvg-adaptive="auto" group-title="Кино и сериалы",Kinoliving
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-https://mhd128.iptv2022.com/p/2PPtV1k2UeptDqluUC-zGA,1777100254/streaming/kinoliving/324/1/index.m3u8
+https://mhd128.iptv2022.com/p/m4o0_55GaN4m7FSMX1ZMew,1777273292/streaming/kinoliving/324/1/index.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/sony.png" tvg-id="sony-tv" tvg-name".red" audio-track="rus" tvg-adaptive="auto" group-title="Кино и сериалы",.red
 #EXTVLCOPT:network-caching=3000
 http://46.53.208.4/live/1400-req_offset_28000000-req_window_0-1k_v5.m3u8
@@ -1401,11 +1404,11 @@ https://stream8.cinerama.uz/1227/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/star-cinema.png" tvg-id="star-cinema" tvg-name"Star Cinema" audio-track="rus" audio-track="rus" tvg-adaptive="auto" group-title="Кино и сериалы",Star Cinema
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-https://mhd128.iptv2022.com/p/lZaGfLZ0ZJZqnWbTfQag_w,1777100254/streaming/star_cinema/324/1/tracks-v5a1/mono.m3u8
+https://mhd128.iptv2022.com/p/6y7OvDH9-1rDb6hPyhSpkw,1777273292/streaming/star_cinema/324/1/tracks-v5a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/star-family.png" tvg-id="star-family" tvg-name"Star Family" audio-track="rus" audio-track="rus" tvg-adaptive="auto" group-title="Кино и сериалы",Star Family
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-https://mhd128.iptv2022.com/p/-HSJZkGrcN2HH7xRGvBWuw,1777100254/streaming/star_family/324/1/tracks-v5a1/mono.m3u8
+https://mhd128.iptv2022.com/p/cFR2XRV_yXXUjg92ALsykA,1777273292/streaming/star_family/324/1/tracks-v5a1/mono.m3u8
 #EXTINF:-1 tvg-id="mosfilm" tvg-logo="https://epg.iptvx.one/picons/mosfilm.png" audio-track="rus" tvg-name"Мосфильм. Золотая коллекция" audio-track="rus" tvg-adaptive="auto" group-title="Кино и сериалы",Мосфильм Золотая Коллекция
 #EXTVLCOPT:network-caching=3000
 http://31.210.208.171:8080/mosfilm/index.m3u8?token=+W2MSER
@@ -1432,11 +1435,12 @@ http://vod.tuva.ru/eurokino/index.m3u8
 http://188.225.31.197/bpk-tv/000004534/tve/index.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/denpobedy.png" tvg-id="denpobedy" tvg-name"День Победы" audio-track="rus" tvg-adaptive="auto" group-title="Кино и сериалы",День Победы
 #EXTVLCOPT:network-caching=3000
-http://stream-msk-07.ott.tricolor.tv/dtv/id666_MSKSG-PVR-1--Den_Pobedy/03/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI1MjA0MDkwNTk0OTM0NSIsImV4cCI6MTc3NjU5ODczNCwiaHdpZCI6ImYxY2I2OGZiZDVjMzI5NTA3ZGQ1ZjE2M2MzMjlkMjYyMDNhYmViZTc0M2YyOTc4ZmYwZDM2ZmRlMmJhMjE0ZGEiLCJsYXN0X3JlcV9kYXRlIjoxNzc1OTkzOTM0LCJzZXNzaW9uX2lkIjoiOGQwMGMzNjY5NWQwNzcwYjkwYzQwYTk5OWI0NTM0YTEiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.ld33jQ-VDOjuf2P8GPMyVi_o5Eof-yGsvcSW7FL6uPM
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
+https://mhd128.iptv2022.com/p/DrjwHBZS303Umo2dmBUTNA,1777273292/streaming/den-pobedi/324/1/tracks-v5a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/bolt.png" tvg-id="bolt" audio-track="rus" tvg-name"Bolt" audio-track="rus" tvg-adaptive="auto" group-title="Кино и сериалы",Bolt
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-https://mhd128.iptv2022.com/p/UXCD6rZyGTFwfEg8cbf9Mw,1777100254/streaming/bolt/324/1/tracks-v5a1/mono.m3u8
+https://mhd128.iptv2022.com/p/1GIWT6QtLD9wXd_XK7fJug,1777273292/streaming/bolt/324/1/tracks-v5a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/fanhd.png" tvg-id="fanhd" tvg-name"FAN" audio-track="rus" tvg-adaptive="auto" group-title="Кино и сериалы",FAN HD
 #EXTVLCOPT:network-caching=3000
 http://31.210.208.171:8080/fan/index.m3u8?token=+W2MSER
@@ -1469,7 +1473,7 @@ https://stream8.cinerama.uz/1420/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="teleputeshestvia" tvg-logo="https://epg.iptvx.one/picons/teleputeshestvia.png" tvg-name"Телепутешествия" audio-track="rus" tvg-adaptive="auto" group-title="Познавательное" ,Телепутешествия
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-https://mhd128.iptv2022.com/p/G1Du2JlgARRMnug5PYJPoA,1777100256/streaming/adventure/324/1/tracks-v5a1/mono.m3u8
+https://mhd128.iptv2022.com/p/IbUh-jYldbCMFeMRlHP33Q,1777273294/streaming/adventure/324/1/tracks-v5a1/mono.m3u8
 #EXTINF:-1 tvg-id="v-mire-zhivotnyx-hd" tvg-logo="https://epg.iptvx.one/picons/v-mire-zhivotnyx.png" tvg-name"В мире животных" audio-track="rus" tvg-adaptive="auto" group-title="Познавательное" ,В мире животных
 #EXTVLCOPT:network-caching=3000
 https://stream8.cinerama.uz/1404/tracks-v1a1/mono.m3u8
@@ -1540,7 +1544,7 @@ https://stream8.cinerama.uz/1250/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/zootv.png" tvg-id="zootv" tvg-name"Зоо ТВ" audio-track="rus" tvg-adaptive="auto" group-title="Познавательное",Зоо ТВ
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-https://mhd128.iptv2022.com/p/aoJWmJa_VS_CKHaBx9OS8w,1777100256/streaming/zoo/324/1/tracks-v5a1/mono.m3u8
+https://mhd128.iptv2022.com/p/GV5cg1-hqRg3CojYAHdvgA,1777273294/streaming/zoo/324/1/tracks-v5a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/zoopark.png" tvg-id="zoopark" tvg-name"ZooПарк" audio-track="rus" tvg-adaptive="auto" group-title="Познавательное",Zooпарк
 #EXTVLCOPT:network-caching=3000
 http://31.210.208.171:8080/zoopark/index.m3u8?token=+W2MSER
@@ -1614,7 +1618,7 @@ https://stream-msk-10.ott.tricolor.tv/dtv/id908_MSKSG-PVR-1--Kinozal_9/02/plst.m
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/ratnik.png" tvg-id="ratnik" tvg-name"Ратник" audio-track="rus" tvg-adaptive="auto" group-title="Познавательное",Ратник
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-https://mhd128.iptv2022.com/p/zrdqHaMzBz68I7KB-_xqoA,1777100255/streaming/ratnik/324/1/tracks-v5a1/mono.m3u8
+https://mhd128.iptv2022.com/p/g-nM3MoM-nswvWZKMyu9Wg,1777273293/streaming/ratnik/324/1/tracks-v5a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://veuxiptv.github.io/TV/logo/8917.png" tvg-id="no_epg" tvg-name"Благая весть" audio-track="rus" tvg-adaptive="auto" group-title="Познавательное",ТБВ
 #EXTVLCOPT:network-caching=3000
 https://bv.mediacdn.ru/cdn/blagvest/playlist.m3u8
@@ -1627,7 +1631,7 @@ https://a3569457567-s70378.cdn.ngenix.net/terra/2/index.m3u8
 #EXTINF:-1 tvg-id="big-planet" tvg-logo="https://epg.iptvx.one/picons/big-planet.png" tvg-name"Big Planet" audio-track="rus" tvg-adaptive="auto" group-title="Познавательное",Big Planet
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-https://mhd128.iptv2022.com/p/g9P6kXMQbaMYelXxyOEZww,1777100256/streaming/big_planet/324/1/tracks-v5a1/mono.m3u8
+https://mhd128.iptv2022.com/p/KXDV31nz0PqF20oSGj86eA,1777273294/streaming/big_planet/324/1/tracks-v5a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/curiosity-stream.png" tvg-id="curiosity-stream" tvg-name"Curiosity Stream" audio-track="rus" tvg-adaptive="auto" group-title="Познавательное",Curiosity Stream
 #EXTVLCOPT:network-caching=3000
 http://46.53.208.4/live/994-req_offset_28000000-req_window_0-1k_v5.m3u8
@@ -1637,15 +1641,15 @@ http://stitch.teletarget.ru/vintera/terra/index.m3u8
 #EXTINF:-1 tvg-id="viasat-explore" tvg-logo="https://epg.iptvx.one/picons/viasat-explore.png" tvg-name"viju Explore" audio-track="rus" tvg-adaptive="auto" group-title="Познавательное" ,Viju Explore
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 #EXTVLCOPT:network-caching=3000
-https://live-hls-viasat-secure-flus.cdnvideo.ru/viasat/Explore_HD_ad.smil/tracks-v1a1/mono.ts.m3u8?filter.tracks=v1v2v3a1&md5=I2kVySQrMLrsSh5AEfwAuQ&e=1777112064&hls_proxy_host=e2c000defa6aa845b219ba5ca0db8ad5
+https://live-hls-viasat-secure-flus.cdnvideo.ru/viasat/TV1000_Action_HD_ad.smil/tracks-v1a1/mono.ts.m3u8?filter.tracks=v1v2v3a1&md5=iS3VA0jjhgYl_1BnEdSSRA&e=1778229996&hls_proxy_host=e2c000defa6aa845b219ba5ca0db8ad5
 #EXTINF:-1 tvg-id="viasat-history" tvg-logo="https://epg.iptvx.one/picons/viasat-history.png" tvg-name"viju History" audio-track="rus" tvg-adaptive="auto" group-title="Познавательное" ,Viju History
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 #EXTVLCOPT:network-caching=3000
-https://live-hls-viasat-secure-flus.cdnvideo.ru/viasat/History_HD_ad.smil/tracks-v1a1/mono.ts.m3u8?filter.tracks=v1v2v3a1&md5=SufOwUs8LGBaDjf7k7G-PA&e=1777112020&hls_proxy_host=e2c000defa6aa845b219ba5ca0db8ad5
+https://live-hls-viasat-secure-flus.cdnvideo.ru/viasat/History_HD_ad.smil/tracks-v1a1/mono.ts.m3u8?filter.tracks=v1v2v3a1&md5=0C3cddcEPuW7otp0RWUqlQ&e=1778230052&hls_proxy_host=e2c000defa6aa845b219ba5ca0db8ad5
 #EXTINF:-1 tvg-id="viasat-nature" tvg-logo="https://epg.iptvx.one/picons/viasat-nature.png" tvg-name"viju Nature" audio-track="rus" tvg-adaptive="auto" group-title="Познавательное" ,Viju Nature
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 #EXTVLCOPT:network-caching=3000
-https://live-hls-viasat-secure-flus.cdnvideo.ru/viasat/Nature_HD_ad.smil/tracks-v1a1/mono.ts.m3u8?filter.tracks=v1v2v3a1&md5=FRjGBdGSlz9533YemhdnSg&e=1777112100&hls_proxy_host=e2c000defa6aa845b219ba5ca0db8ad5
+https://live-hls-viasat-secure-flus.cdnvideo.ru/viasat/Nature_HD_ad.smil/tracks-v1a1/mono.ts.m3u8?filter.tracks=v1v2v3a1&md5=OSXy82_FAe53bzAzEvSEGw&e=1778230111&hls_proxy_host=e2c000defa6aa845b219ba5ca0db8ad5
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/viasat-nature-history-hd.png" tvg-id="viasat-nature-history-hd" tvg-name"viju+ Planet" audio-track="rus" tvg-adaptive="auto" group-title="Познавательное" ,Viju+ Planet
 #EXTVLCOPT:network-caching=3000
 https://livetv-app.mylifeisgood.net.ru/channels/50c0316fa37fc4a9866a66f817e6c4383cb23cc0a49f0c322c505ffd7b8b4774.m3u8
@@ -1673,7 +1677,7 @@ http://188.225.31.197/bpk-tv/000003174/tve/index.m3u8
 #EXTINF:-1 tvg-id="oxotnik-i-rybolov" tvg-logo="https://epg.iptvx.one/picons/oxotnik-i-rybolov.png" tvg-name"Рыболов" audio-track="rus" tvg-adaptive="auto" group-title="Познавательное",Рыболов
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-https://mhd128.iptv2022.com/p/mNiBVc5ArBjs1D9DQxR8Vw,1777100255/streaming/ohotnik/324/1/tracks-v5a1/mono.m3u8
+https://mhd128.iptv2022.com/p/TpNO9t2c3KpDqJOeYNw8EQ,1777273293/streaming/ohotnik/324/1/tracks-v5a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/nasha-tema.png" tvg-id="nasha-tema" tvg-name"Наша тема" audio-track="rus" tvg-adaptive="auto" group-title="Познавательное" ,Наша тема
 #EXTVLCOPT:network-caching=3000
 http://46.53.208.4/live/2103-req_offset_28000000-req_window_0-1k_v5.m3u8
@@ -1698,7 +1702,7 @@ https://hls-tva.cdnvideo.ru/tva/tvahd.sdp/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/ege-tv.png" tvg-id="ege-tv" tvg-name"ЕГЭ" audio-track="rus" tvg-adaptive="auto" group-title="Познавательное",ЕГЭ ТВ
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-https://mhd128.iptv2022.com/p/QjbmLI168tvX8NWkQ20CZg,1777100256/streaming/ege/324/1/index.m3u8
+https://mhd128.iptv2022.com/p/wqUw4HmlPNRhv_Id2r-Gcw,1777273295/streaming/ege/324/1/index.m3u8
 
 
 #EXTINF:-1 tvg-id="rutube-tv" tvg-logo="https://epg.iptvx.one/picons/rutube-tv.png" tvg-name"RUTUBE TV" audio-track="rus" tvg-adaptive="auto" group-title="Развлекательное" ,Rutube TV
@@ -1780,11 +1784,11 @@ http://188.225.31.197/bpk-tv/000008615/tve/index.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/teatr.png" tvg-id="teatr" tvg-name"Театр" audio-track="rus" tvg-adaptive="auto" group-title="Развлекательное" ,ТЕАТР
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-https://mhd128.iptv2022.com/p/YOG5bny8dxwvkTpmVDmVCQ,1777100257/streaming/theater/324/1/tracks-v5a1/mono.m3u8
+https://mhd128.iptv2022.com/p/Jgg2PufHhjnWc62aTo14kg,1777273295/streaming/theater/324/1/tracks-v5a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/tayna.png" tvg-id="tayna" tvg-name"Тайна" audio-track="rus" tvg-adaptive="auto" group-title="Развлекательное" ,Тайна
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-https://mhd128.iptv2022.com/p/mBmOddzZFG3q2KFE-2G-qw,1777100255/streaming/taina/324/1/tracks-v5a1/mono.m3u8
+https://mhd128.iptv2022.com/p/jfTkLZbsFVBQCmmmMfBoJQ,1777273292/streaming/taina/324/1/tracks-v5a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/lapki-live.png" tvg-id="lapki-live" tvg-name"Лапки Live" audio-track="rus" tvg-adaptive="auto" group-title="Развлекательное",Лапки LIVE
 #EXTVLCOPT:network-caching=3000
 http://188.225.31.197/bpk-tv/000008551/tve/index.m3u8
@@ -1794,18 +1798,18 @@ https://stream8.cinerama.uz/1236/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="eda" tvg-logo="https://epg.iptvx.one/picons/eda.png" tvg-id="eda" tvg-name"Еда" audio-track="rus" tvg-adaptive="auto" group-title="Развлекательное" ,Еда
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-https://mhd128.iptv2022.com/p/HAqR1zvz9qEnKzTMCMCWHQ,1777100255/streaming/eda/324/1/tracks-v5a1/mono.m3u8
+https://mhd128.iptv2022.com/p/YFfqMBEI-QPZ3xpQ8IksjA,1777273293/streaming/eda/324/1/tracks-v5a1/mono.m3u8
 #EXTINF:-1 tvg-id="eda-hd" tvg-logo="https://epg.iptvx.one/picons/eda-hd.png" tvg-id="Еда HD" tvg-name"FoodTime" audio-track="rus" tvg-adaptive="auto" group-title="Развлекательное" ,FoodTime
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-https://mhd128.iptv2022.com/p/sRMSE2ejMy7y0jn8_Pp5uQ,1777100255/streaming/edahd/324/1/tracks-v5a1/mono.m3u8
+https://mhd128.iptv2022.com/p/hfdZLwtcBofOBqoOayTPmw,1777273293/streaming/edahd/324/1/tracks-v5a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/eda-hd-int.png" tvg-id="eda-hd-int" tvg-name"Еда Премиум Int. HD" audio-track="rus" tvg-adaptive="auto" group-title="Развлекательное" ,Еда Премиум Международный
 #EXTVLCOPT:network-caching=3000
 http://188.225.31.197/bpk-tv/000000588/tve/index.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/pervy-vegetariansky.png" tvg-id="pervy-vegetariansky" tvg-id="pervy-vegetariansky" tvg-name"Первый вегетарианский" audio-track="rus" tvg-adaptive="auto" group-title="Развлекательное" ,Первый вегетарианский
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-https://mhd128.iptv2022.com/p/Yx10Ys68AQ1rkHPcoE0O2w,1777100255/streaming/firstvegan/324/1/index.m3u8
+https://mhd128.iptv2022.com/p/d3_eM90Mmo8-QJvG476EEQ,1777273293/streaming/firstvegan/324/1/index.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/appetitny.png" tvg-id="appetitny" tvg-name"Аппетитный" audio-track="rus" tvg-adaptive="auto" group-title="Развлекательное" ,Аппетитный
 #EXTVLCOPT:network-caching=3000
 http://188.225.31.197/bpk-tv/000008877/tve/index.m3u8
@@ -2000,10 +2004,10 @@ http://46.53.208.4/live/5108-req_offset_28000000-req_window_0-3k_v5.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/multsezon.png" tvg-name"МультСезон" tvg-id="multsezon" audio-track="rus" tvg-adaptive="auto" group-title="Детский",МультСезон
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-https://mhd128.iptv2022.com/p/sdsXiFfN2fumJog0FVvcHA,1777100255/streaming/multsezon/324/1/index.m3u8
+https://mhd128.iptv2022.com/p/H-Va_2eqZ9XArGLCgebSBg,1777273293/streaming/multsezon/324/1/index.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/skazki-zayki.png" tvg-id="skazki-zayki" tvg-name"Сказки Зайки" audio-track="rus" tvg-adaptive="auto" catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Детский",Сказки Зайки
 #EXTVLCOPT:network-caching=3000
-http://api.peers.tv/timeshift/skazkizayki/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzcxMDAyNjIsImlhdCI6MTc3NzAxMzg2MiwiY2lkIjo2LCJ1aWQiOjEwMzYzNjA3OTksInJlZyI6ZmFsc2UsImlwIjoyNDU0MTIwMzc5LCJhZHVsdCI6ZmFsc2V9.txDYkBrdpxiwbeR_3vEQxd4j7ZD6ajsxEBJgQAe_fP0&offset=10
+http://api.peers.tv/timeshift/skazkizayki/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NzcyNzMzMDksImlhdCI6MTc3NzE4NjkwOSwiY2lkIjo2LCJ1aWQiOjEwMzcwNDM5ODQsInJlZyI6ZmFsc2UsImlwIjozMjYwNTA5MTY3LCJhZHVsdCI6ZmFsc2V9.upEbQAnQelLYpeoVY6aGAIj073WxbxbAWxAvtB4gWKA&offset=10
 #EXTINF:-1 tvg-id="liova" tvg-name"Лёва" tvg-logo="https://epg.iptvx.one/picons/liova.png" audio-track="rus" tvg-adaptive="auto" group-title="Детский",Лёва
 #EXTVLCOPT:network-caching=3000
 http://46.53.208.4/live/2424-req_offset_28000000-req_window_0-1k_v5.m3u8
@@ -2013,11 +2017,11 @@ http://194.26.229.213/chip-n-dale-rescue-rangers/index.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/chizhik.png" tvg-name"Чижик" tvg-id="chizhik" audio-track="rus" tvg-adaptive="auto" group-title="Детский",Чижик
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-https://mhd128.iptv2022.com/p/y3JVMmkWtt5pwE7LZFqzug,1777100255/streaming/chizhikhd/324/1/tracks-v5a1/mono.m3u8
+https://mhd128.iptv2022.com/p/BhjSVM3vUBiIAWKM3FRUug,1777273293/streaming/chizhikhd/324/1/tracks-v5a1/mono.m3u8
 #EXTINF:-1 tvg-id="tiptop" tvg-name"ТипТоп" tvg-logo="https://epg.iptvx.one/picons/tiptop.png" audio-track="rus" tvg-adaptive="auto" group-title="Детский",ТипТоп
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (SmartTV; Linux; Tizen 6.0)
-https://mhd128.iptv2022.com/p/1A5tKWHM6sweZINgcd-zEA,1777100255/streaming/tiptop/324/1/tracks-v5a1/mono.m3u8
+https://mhd128.iptv2022.com/p/fkpndMQx31Nx4J4dnlbDCw,1777273293/streaming/tiptop/324/1/tracks-v5a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/ducktv.png" tvg-name"Duck TV" tvg-id="ducktv" audio-track="rus" tvg-adaptive="auto" group-title="Детский",ducktv
 #EXTVLCOPT:network-caching=3000
 http://46.53.208.4/live/1492-req_offset_28000000-req_window_0-1k_v5.m3u8
