@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VekTV_Plus</title>
+
+    <!-- ══════════════ БЕЗОПАСНОСТЬ ══════════════ -->
+    <meta http-equiv="Content-Security-Policy"
+          content="
+            default-src 'self';
+            script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net;
+            style-src 'self' 'unsafe-inline';
+            media-src 'self' blob: https:;
+            connect-src 'self' https://api.telegram.org;
+            frame-src 'self' https://telegram.org https://web.telegram.org;
+            img-src 'self' data:;
+            font-src 'self' data:;
+          ">
+
+    <style>
+        :root {
+            --bg: #ffffff;
+            --surface: #f8f9fa;
+            --border: #d5d9de;
+            --text: #1a1a1a;
+            --text-secondary: #555;
+            --accent: #3b7ddd;
+            --accent-hover: #2f6bc1;
+            --radius: 12px;
+            --radius-sm: 8px;
+            --font: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+            --toast-bg: #1a1d24;
+            --toast-text: #fff;
+            --btn-bg: #ffffff;
+            --btn-border: #dde0e5;
+            --btn-hover-bg: #f9fafb;
+            --btn-hover-border: #bcc1ca;
+            --modal-overlay-bg: rgba(0,0,0,0.5);
+            --table-hover: #f9fafc;
+            --table-header: #f6f7f9;
+            --news-bg: #f9fafc;
+            --news-border: #e8eaef;
+            --news-hover-bg: #f0f2f5;
+            --input-bg: #fafbfc;
+            --input-border: #e2e5ea;
+        }
+
+        body.dark {
+            --bg: #1a1d24;
+            --surface: #23272e;
+            --border: #3a3f47;
+            --text: #e0e0e0;
+            --text-secondary: #b0b0b0;
+            --accent: #5b9cf5;
+            --accent-hover: #7eb8ff;
+            --btn-bg: #2c3038;
+            --btn-border: #4a4f58;
+            --btn-hover-bg: #383d46;
+            --btn-hover-border: #5b606a;
+            --modal-overlay-bg: rgba(0,0,0,0.7);
+            --table-hover: #353a43;
+            --table-header: #2a2e35;
+            --news-bg: #2c3038;
+            --news-border: #414750;
+            --news-hover-bg: #383d46;
+            --input-bg: #2c3038;
+            --input-border: #4a4f58;
+            --toast-bg: #e0e0e0;
+            --toast-text: #1a1d24;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; transition: background-color 0.2s, color 0.2s, border-color 0.2s; }
+
+        /* Запрет перетаскивания для изображений и ссылок */
+        img, a { -webkit-user-drag: none; user-select: none; }
+        img { pointer-events: none; } /* не даём перетаскивать, но логотип можно кликать? оставим */
+        .logo-img { pointer-events: none; }
+
+        body {
+            font-family: var(--font);
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 30px 20px 60px;
+            position: relative;
+        }
+
+        .theme-toggle {
+            position: absolute; top: 20px; right: 20px;
+            background: var(--surface); border: 2px solid var(--border);
+            border-radius: 30px; padding: 6px 12px; cursor: pointer;
+            font-size: 18px; display: flex; align-items: center; gap: 6px;
+            color: var(--text);
+        }
+
+        .logo-area { margin-bottom: 10px; display: flex; justify-content: center; }
+        .logo-placeholder {
+            width: 130px; height: 70px; border: 2px dashed #c5cad2;
+            border-radius: var(--radius-sm); display: flex; align-items: center;
+            justify-content: center; color: #9aa0ab; font-size: 12px; background: var(--surface);
+        }
+
+        .site-title {
+            font-size: 38px; font-weight: 700; text-align: center;
+            margin: 0 0 8px 0; user-select: none;
+        }
+        .site-title span { color: var(--accent); }
+        .site-subtitle { font-size: 14px; color: var(--text-secondary); margin-bottom: 40px; text-align: center; }
+
+        .buttons-grid {
+            display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px;
+            max-width: 720px; width: 100%; margin: 0 auto;
+        }
+        @media (max-width: 600px) { .buttons-grid { grid-template-columns: 1fr; } }
+
+        .btn-outline {
+            display: flex; align-items: center; justify-content: center; gap: 10px;
+            width: 100%; padding: 18px 16px; font-family: var(--font); font-size: 15px;
+            font-weight: 500; color: var(--text); background: var(--btn-bg);
+            border: 2px solid var(--btn-border); border-radius: var(--radius); cursor: pointer;
+        }
+        .btn-outline:hover { background: var(--btn-hover-bg); border-color: var(--btn-hover-border); }
+        .btn-accent { background: var(--accent); color: white; border-color: var(--accent); }
+        .btn-accent:hover { background: var(--accent-hover); }
+
+        .modal-overlay {
+            position: fixed; inset: 0; background: var(--modal-overlay-bg);
+            z-index: 1000; display: flex; align-items: center; justify-content: center;
+            padding: 20px; opacity: 0; visibility: hidden;
+        }
+        .modal-overlay.active { opacity: 1; visibility: visible; }
+        .modal {
+            background: var(--bg); border-radius: 18px; box-shadow: 0 12px 40px rgba(0,0,0,0.2);
+            width: 100%; max-width: 580px; max-height: 85vh; overflow-y: auto;
+            padding: 32px 30px 28px; position: relative; border: 1px solid var(--border);
+        }
+        .modal-wide { max-width: 800px; }
+
+        .modal-close {
+            position: absolute; top: 14px; right: 16px;
+            width: 36px; height: 36px; border-radius: 50%; border: none;
+            background: var(--surface); color: var(--text); font-size: 20px;
+            cursor: pointer; display: flex; align-items: center; justify-content: center;
+        }
+        .btn-collapse {
+            display: block; width: 100%; margin-top: 20px; padding: 10px;
+            background: var(--surface); border: 2px solid var(--border);
+            border-radius: var(--radius-sm); cursor: pointer; font-weight: 600; color: var(--text);
+        }
+
+        .form-group { margin-bottom: 16px; text-align: left; }
+        .form-group label { display: block; font-size: 13px; font-weight: 600; color: var(--text-secondary); margin-bottom: 5px; }
+        .form-group input { width: 100%; padding: 12px 14px; background: var(--input-bg); border: 2px solid var(--input-border); border-radius: var(--radius-sm); color: var(--text); }
+        .form-submit { width: 100%; padding: 14px; background: var(--accent); color: white; border: none; border-radius: var(--radius-sm); font-weight: 600; cursor: pointer; }
+        .form-feedback { text-align: center; margin-top: 12px; min-height: 20px; }
+        .form-feedback.success { color: var(--success); }
+        .form-feedback.error { color: var(--danger); }
+
+        /* Новости аккордеон */
+        .news-item {
+            background: var(--news-bg); border: 1px solid var(--news-border);
+            border-radius: var(--radius-sm); padding: 16px 18px; margin-bottom: 12px;
+            cursor: pointer; position: relative;
+        }
+        .news-header {
+            display: flex; align-items: center; justify-content: space-between;
+        }
+        .news-title { font-weight: 600; font-size: 16px; color: var(--text); }
+        .news-meta { display: flex; align-items: center; gap: 8px; }
+        .news-badge-new {
+            background: var(--accent); color: white; font-size: 11px;
+            padding: 2px 8px; border-radius: 12px; font-weight: 600;
+        }
+        .news-tags { display: flex; gap: 4px; flex-wrap: wrap; margin-top: 6px; }
+        .news-tag {
+            background: var(--surface); border: 1px solid var(--border);
+            border-radius: 16px; padding: 2px 10px; font-size: 11px; color: var(--text-secondary);
+        }
+        .news-body {
+            max-height: 0; overflow: hidden; transition: max-height 0.3s ease;
+            font-size: 14px; color: var(--text-secondary); line-height: 1.6;
+            margin-top: 12px; padding-right: 10px;
+        }
+        .news-item.expanded .news-body { max-height: 500px; }
+        .news-actions { display: flex; gap: 10px; margin-top: 8px; }
+        .news-share-btn {
+            background: none; border: 1px solid var(--border); border-radius: 6px;
+            padding: 4px 12px; font-size: 13px; cursor: pointer; color: var(--text);
+        }
+        .news-filter { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; }
+        .news-filter-btn {
+            background: var(--surface); border: 1px solid var(--border);
+            border-radius: 20px; padding: 6px 14px; font-size: 13px; cursor: pointer; color: var(--text);
+        }
+        .news-filter-btn.active { background: var(--accent); color: white; border-color: var(--accent); }
+
+        /* Остальные стили (каналы, плеер, табы и пр.) оставлены как в предыдущем коде,
+           но здесь сокращены для экономии места. Они точно такие же, как раньше. */
+        /* ... (скопируйте их из предыдущего полного ответа) ... */
+
+        .toast {
+            position: fixed; bottom: 30px; left: 50%; transform: translateX(-50%);
+            background: var(--toast-bg); color: var(--toast-text);
+            padding: 14px 24px; border-radius: 30px; font-size: 14px; font-weight: 500;
+            z-index: 2000; opacity: 0; visibility: hidden; pointer-events: none;
+        }
+        .toast.show { opacity: 1; visibility: visible; }
+    </style>
+</head>
+<body>
+
+    <!-- ══════════ ЗАЩИТА ОТ IFRAME И ПРОВЕРКА ДОМЕНА ══════════ -->
+    <script>
+        // Запрет работы в iframe (защита от фейков)
+        if (window.top !== window.self) {
+            document.body.innerHTML = '<h1 style="text-align:center;margin-top:100px;">Сайт недоступен во фрейме</h1>';
+            throw new Error('Запрещено открытие в iframe');
+        }
+        // Проверка домена (замените на свой)
+        const ALLOWED_HOST = 'vektv-plus.ru'; // или ваш реальный домен
+        if (window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1') {
+            if (window.location.hostname !== ALLOWED_HOST) {
+                document.body.innerHTML = '<h1 style="text-align:center;margin-top:100px;">⚠️ Предупреждение: возможно, это поддельный сайт. Официальный домен: vektv-plus.ru</h1>';
+            }
+        }
+        // Глобальный запрет перетаскивания
+        document.addEventListener('dragstart', function(e) {
+            if (e.target.tagName === 'IMG' || e.target.tagName === 'A') {
+                e.preventDefault();
+                return false;
+            }
+        });
+    </script>
+
+    <!-- Тёмная тема переключатель -->
+    <div class="theme-toggle" id="themeToggle" title="Переключить тему">🌓</div>
+
+    <!-- ══════════════ ЛОГОТИП И ЗАГОЛОВОК ══════════════ -->
+    <div class="logo-area" id="logoArea">
+        <div class="logo-placeholder" id="logoPlaceholder">ВАШ ЛОГОТИП<br>(PNG)</div>
+        <img class="logo-img" id="logoImg" src="" alt="VekTV_Plus логотип"
+             style="display:none;"
+             onload="document.getElementById('logoPlaceholder').style.display='none'; this.style.display='block';"
+             onerror="this.style.display='none'; document.getElementById('logoPlaceholder').style.display='flex';">
+    </div>
+    <h1 class="site-title">Vek<span>TV</span>_Plus</h1>
+    <p class="site-subtitle">Цифровое телевидение нового поколения</p>
+
+    <!-- Кнопки -->
+    <div class="buttons-grid">
+        <button class="btn-outline btn-accent" onclick="openModal('modalApplication')">📝 Подать заявку</button>
+        <button class="btn-outline" onclick="openModal('modalChannels')">📺 Список каналов</button>
+        <button class="btn-outline" onclick="openModal('modalNews')">📰 Новости</button>
+        <button class="btn-outline" onclick="openModal('modalSupport')">💬 Техподдержка</button>
+        <button class="btn-outline" onclick="openModal('modalAbout')">ℹ️ О нас</button>
+        <button class="btn-outline" onclick="openModal('modalInstructions')">📋 Инструкции</button>
+    </div>
+
+    <!-- ══════════════ МОДАЛИ (заявка, каналы, новости, поддержка, о нас, инструкции) ══════════════ -->
+    <!-- Здесь оставьте все модалы из предыдущего кода без изменений, кроме новостей и деталей новостей -->
+    <!-- Модал заявки (modalApplication) – как раньше, с honeypot -->
+    <!-- Модал каналов (modalChannels) – полностью как раньше, со скелетоном, таблицей, историей, избранным -->
+    <!-- Модал деталей канала (modalChannelDetail) – с плеером, копированием и кнопкой назад -->
+    <!-- Модал поддержки, о нас, инструкций – как раньше -->
+
+    <!-- НОВЫЙ МОДАЛ НОВОСТЕЙ (аккордеон + фильтр + поделиться) -->
+    <div class="modal-overlay" id="modalNews">
+        <div class="modal modal-wide">
+            <button class="modal-close" onclick="closeModal('modalNews')">✕</button>
+            <h2 class="modal-title">📰 Новости</h2>
+            <!-- Фильтр по тегам -->
+            <div class="news-filter" id="newsFilter">
+                <button class="news-filter-btn active" data-tag="all">Все</button>
+                <button class="news-filter-btn" data-tag="техработы">Техработы</button>
+                <button class="news-filter-btn" data-tag="каналы">Каналы</button>
+                <button class="news-filter-btn" data-tag="обновления">Обновления</button>
+            </div>
+            <div id="newsList">
+                <!-- НОВОСТИ РЕДАКТИРУЙТЕ ЗДЕСЬ -->
+                <div class="news-item" data-title="🔧 Плановые профилактические работы"
+                     data-tags="техработы" data-date="2026-05-10"
+                     data-detail="15 мая с 02:00 до 05:00 (МСК) будут проводиться технические работы. Возможны кратковременные перерывы в вещании.">
+                    <div class="news-header">
+                        <span class="news-title">🔧 Плановые профилактические работы</span>
+                        <span class="news-meta">
+                            <span class="news-badge-new" style="display:none;">Новая</span>
+                        </span>
+                    </div>
+                    <div class="news-body">15 мая с 02:00 до 05:00 (МСК) будут проводиться технические работы. Возможны кратковременные перерывы в вещании.</div>
+                    <div class="news-actions" style="display:none;">
+                        <button class="news-share-btn" onclick="shareNews(event, this)">📤 Поделиться</button>
+                    </div>
+                </div>
+                <div class="news-item" data-title="🎉 Добавлены новые каналы"
+                     data-tags="каналы" data-date="2026-05-08"
+                     data-detail="В плейлист добавлены HD-каналы: КиноPremium, СпортЭкстра. Обновите плейлист.">
+                    <div class="news-header">
+                        <span class="news-title">🎉 Добавлены новые каналы</span>
+                        <span class="news-meta">
+                            <span class="news-badge-new" style="display:none;">Новая</span>
+                        </span>
+                    </div>
+                    <div class="news-body">В плейлист добавлены HD-каналы: КиноPremium, СпортЭкстра. Обновите плейлист.</div>
+                    <div class="news-actions" style="display:none;">
+                        <button class="news-share-btn" onclick="shareNews(event, this)">📤 Поделиться</button>
+                    </div>
+                </div>
+            </div>
+            <button class="btn-collapse" onclick="closeModal('modalNews')">⬅️ Закрыть</button>
+        </div>
+    </div>
+
+    <!-- ══════════════ ТЕХПОДДЕРЖКА, О НАС, ИНСТРУКЦИИ (как раньше) ══════════════ -->
+
+    <!-- Плавающая кнопка Telegram -->
+    <a class="telegram-float" href="https://t.me/VekTV_Support" target="_blank" title="Чат в Telegram">✈️</a>
+
+    <!-- TOAST -->
+    <div class="toast" id="toast"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <script>
+        // ══════════ НАСТРОЙКИ И ПЕРЕМЕННЫЕ ══════════
+        const TELEGRAM_BOT_TOKEN = '';
+        const TELEGRAM_CHAT_ID = '';
+        let previousModal = null;
+
+        // ... (функции openModal, closeModal, goBack, работы с каналами, заявкой, темами – полностью сохраните из предыдущего ответа) ...
+
+        // ══════════ НОВОСТИ: АККОРДЕОН, ФИЛЬТР, ПОДЕЛИТЬСЯ, ИНДИКАТОР "НОВАЯ" ══════════
+
+        // Определяем новость как новую (менее 7 дней)
+        function markNewNews() {
+            const now = new Date();
+            document.querySelectorAll('.news-item').forEach(item => {
+                const dateStr = item.getAttribute('data-date');
+                if (!dateStr) return;
+                const pubDate = new Date(dateStr);
+                const diffDays = (now - pubDate) / (1000 * 60 * 60 * 24);
+                const badge = item.querySelector('.news-badge-new');
+                if (badge && diffDays < 7) {
+                    badge.style.display = 'inline';
+                }
+            });
+        }
+
+        // Разворачивание/сворачивание новости (аккордеон)
+        document.addEventListener('click', function(e) {
+            const newsItem = e.target.closest('.news-item');
+            if (!newsItem || !newsItem.closest('#modalNews')) return;
+            // Не срабатываем при клике на кнопку "Поделиться"
+            if (e.target.closest('.news-share-btn')) return;
+            newsItem.classList.toggle('expanded');
+            const actions = newsItem.querySelector('.news-actions');
+            if (actions) {
+                actions.style.display = newsItem.classList.contains('expanded') ? 'flex' : 'none';
+            }
+        });
+
+        // Поделиться новостью
+        function shareNews(event, btn) {
+            event.stopPropagation();
+            const item = btn.closest('.news-item');
+            const title = item.getAttribute('data-title');
+            const url = window.location.href.split('?')[0] + '?news=' + encodeURIComponent(title);
+            if (navigator.share) {
+                navigator.share({ title: title, text: 'Новость VekTV_Plus', url: url }).catch(() => {});
+            } else {
+                navigator.clipboard.writeText(url).then(() => showToast('🔗 Ссылка скопирована!'));
+            }
+        }
+
+        // Фильтр новостей по тегам
+        function filterNews(tag) {
+            document.querySelectorAll('.news-item').forEach(item => {
+                const tags = item.getAttribute('data-tags') || '';
+                if (tag === 'all' || tags.split(',').map(t => t.trim()).includes(tag)) {
+                    item.style.display = '';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        }
+
+        document.getElementById('newsFilter').addEventListener('click', function(e) {
+            const btn = e.target.closest('.news-filter-btn');
+            if (!btn) return;
+            document.querySelectorAll('.news-filter-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            filterNews(btn.getAttribute('data-tag'));
+        });
+
+        // Инициализация при открытии новостей
+        const originalOpenModal = openModal;
+        openModal = function(id) {
+            originalOpenModal(id);
+            if (id === 'modalNews') {
+                markNewNews();
+                filterNews('all'); // показать все
+                document.querySelectorAll('.news-item').forEach(item => {
+                    item.classList.remove('expanded');
+                    const actions = item.querySelector('.news-actions');
+                    if (actions) actions.style.display = 'none';
+                });
+                document.querySelector('#newsFilter .news-filter-btn[data-tag="all"]').classList.add('active');
+            }
+        };
+
+        // ... весь остальной код (темы, модалы, каналы, плеер и т.д.) остаётся без изменений ...
+    </script>
+</body>
+</html>
