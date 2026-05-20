@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VekTV_Plus</title>
 
-    <!-- ══════════════ БЕЗОПАСНОСТЬ ══════════════ -->
+    <!-- БЕЗОПАСНОСТЬ (базовая CSP, не мешает GitHub Pages) -->
     <meta http-equiv="Content-Security-Policy"
           content="
             default-src 'self';
@@ -19,6 +19,9 @@
           ">
 
     <style>
+        /* ═══════════════════════════════════════════════════════
+           ПЕРЕМЕННЫЕ (СВЕТЛАЯ ТЕМА)
+           ═══════════════════════════════════════════════════════ */
         :root {
             --bg: #ffffff;
             --surface: #f8f9fa;
@@ -46,6 +49,7 @@
             --input-border: #e2e5ea;
         }
 
+        /* Тёмная тема */
         body.dark {
             --bg: #1a1d24;
             --surface: #23272e;
@@ -72,10 +76,9 @@
 
         * { margin: 0; padding: 0; box-sizing: border-box; transition: background-color 0.2s, color 0.2s, border-color 0.2s; }
 
-        /* Запрет перетаскивания для изображений и ссылок */
+        /* Запрет перетаскивания картинок и ссылок */
         img, a { -webkit-user-drag: none; user-select: none; }
-        img { pointer-events: none; } /* не даём перетаскивать, но логотип можно кликать? оставим */
-        .logo-img { pointer-events: none; }
+        img { pointer-events: none; }
 
         body {
             font-family: var(--font);
@@ -103,6 +106,7 @@
             border-radius: var(--radius-sm); display: flex; align-items: center;
             justify-content: center; color: #9aa0ab; font-size: 12px; background: var(--surface);
         }
+        .logo-img { max-width: 140px; height: auto; display: block; }
 
         .site-title {
             font-size: 38px; font-weight: 700; text-align: center;
@@ -157,50 +161,52 @@
         .form-group input { width: 100%; padding: 12px 14px; background: var(--input-bg); border: 2px solid var(--input-border); border-radius: var(--radius-sm); color: var(--text); }
         .form-submit { width: 100%; padding: 14px; background: var(--accent); color: white; border: none; border-radius: var(--radius-sm); font-weight: 600; cursor: pointer; }
         .form-feedback { text-align: center; margin-top: 12px; min-height: 20px; }
-        .form-feedback.success { color: var(--success); }
-        .form-feedback.error { color: var(--danger); }
+        .form-feedback.success { color: #3ca374; }
+        .form-feedback.error { color: #e05555; }
 
-        /* Новости аккордеон */
-        .news-item {
-            background: var(--news-bg); border: 1px solid var(--news-border);
-            border-radius: var(--radius-sm); padding: 16px 18px; margin-bottom: 12px;
-            cursor: pointer; position: relative;
-        }
-        .news-header {
-            display: flex; align-items: center; justify-content: space-between;
-        }
+        /* Таблица каналов */
+        .channel-search { width: 100%; padding: 11px 14px; margin-bottom: 16px; background: var(--input-bg); border: 2px solid var(--input-border); border-radius: var(--radius-sm); color: var(--text); }
+        .table-wrapper { overflow-x: auto; border-radius: var(--radius-sm); border: 1px solid var(--border); max-height: 50vh; overflow-y: auto; }
+        .channel-table { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 500px; }
+        .channel-table th { background: var(--table-header); font-weight: 600; font-size: 12px; text-transform: uppercase; color: var(--text-secondary); padding: 12px 14px; text-align: left; border-bottom: 2px solid var(--border); }
+        .channel-table td { padding: 11px 14px; border-bottom: 1px solid var(--border); color: var(--text); }
+        .channel-table tbody tr { cursor: pointer; }
+        .channel-table tbody tr:hover { background: var(--table-hover); }
+        .channel-count { font-size: 13px; color: var(--text-secondary); margin-bottom: 10px; }
+        .no-results { text-align: center; padding: 30px; color: var(--text-secondary); display: none; }
+        .fav-star { cursor: pointer; font-size: 18px; margin-right: 8px; user-select: none; }
+        .fav-star.active { color: gold; }
+        .status-dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 6px; }
+        .status-dot.online { background: #4caf50; }
+        .copy-btn { background: var(--accent); color: white; border: none; padding: 6px 12px; border-radius: 6px; cursor: pointer; font-size: 13px; margin-top: 8px; }
+
+        /* Новости */
+        .news-item { background: var(--news-bg); border: 1px solid var(--news-border); border-radius: var(--radius-sm); padding: 16px 18px; margin-bottom: 12px; cursor: pointer; }
+        .news-header { display: flex; align-items: center; justify-content: space-between; }
         .news-title { font-weight: 600; font-size: 16px; color: var(--text); }
-        .news-meta { display: flex; align-items: center; gap: 8px; }
-        .news-badge-new {
-            background: var(--accent); color: white; font-size: 11px;
-            padding: 2px 8px; border-radius: 12px; font-weight: 600;
-        }
-        .news-tags { display: flex; gap: 4px; flex-wrap: wrap; margin-top: 6px; }
-        .news-tag {
-            background: var(--surface); border: 1px solid var(--border);
-            border-radius: 16px; padding: 2px 10px; font-size: 11px; color: var(--text-secondary);
-        }
-        .news-body {
-            max-height: 0; overflow: hidden; transition: max-height 0.3s ease;
-            font-size: 14px; color: var(--text-secondary); line-height: 1.6;
-            margin-top: 12px; padding-right: 10px;
-        }
+        .news-badge-new { background: var(--accent); color: white; font-size: 11px; padding: 2px 8px; border-radius: 12px; font-weight: 600; display: none; }
+        .news-body { max-height: 0; overflow: hidden; transition: max-height 0.3s ease; font-size: 14px; color: var(--text-secondary); line-height: 1.6; margin-top: 12px; }
         .news-item.expanded .news-body { max-height: 500px; }
-        .news-actions { display: flex; gap: 10px; margin-top: 8px; }
-        .news-share-btn {
-            background: none; border: 1px solid var(--border); border-radius: 6px;
-            padding: 4px 12px; font-size: 13px; cursor: pointer; color: var(--text);
-        }
+        .news-actions { display: none; gap: 10px; margin-top: 8px; }
+        .news-share-btn { background: none; border: 1px solid var(--border); border-radius: 6px; padding: 4px 12px; font-size: 13px; cursor: pointer; color: var(--text); }
         .news-filter { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; }
-        .news-filter-btn {
-            background: var(--surface); border: 1px solid var(--border);
-            border-radius: 20px; padding: 6px 14px; font-size: 13px; cursor: pointer; color: var(--text);
-        }
+        .news-filter-btn { background: var(--surface); border: 1px solid var(--border); border-radius: 20px; padding: 6px 14px; font-size: 13px; cursor: pointer; color: var(--text); }
         .news-filter-btn.active { background: var(--accent); color: white; border-color: var(--accent); }
 
-        /* Остальные стили (каналы, плеер, табы и пр.) оставлены как в предыдущем коде,
-           но здесь сокращены для экономии места. Они точно такие же, как раньше. */
-        /* ... (скопируйте их из предыдущего полного ответа) ... */
+        /* Инструкции */
+        .tabs { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; }
+        .tab-btn { padding: 8px 16px; background: var(--surface); border: 2px solid var(--border); border-radius: var(--radius-sm); cursor: pointer; color: var(--text); }
+        .tab-btn.active { background: var(--accent); color: white; border-color: var(--accent); }
+        .tab-content { display: none; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 18px; white-space: pre-wrap; font-size: 14px; }
+        .tab-content.active { display: block; }
+
+        /* Плеер */
+        .mini-player { width: 100%; max-width: 480px; margin: 16px 0; background: #000; border-radius: var(--radius-sm); overflow: hidden; }
+        video { width: 100%; display: block; }
+
+        /* Скелетная загрузка */
+        .skeleton { background: linear-gradient(90deg, var(--surface) 25%, var(--border) 50%, var(--surface) 75%); background-size: 200% 100%; animation: shimmer 1.5s infinite; border-radius: 4px; }
+        @keyframes shimmer { 0% { background-position: -200% 0; } 100% { background-position: 200% 0; } }
 
         .toast {
             position: fixed; bottom: 30px; left: 50%; transform: translateX(-50%);
@@ -209,30 +215,30 @@
             z-index: 2000; opacity: 0; visibility: hidden; pointer-events: none;
         }
         .toast.show { opacity: 1; visibility: visible; }
+        .telegram-float {
+            position: fixed; bottom: 30px; right: 30px;
+            width: 56px; height: 56px; border-radius: 50%;
+            background: #0088cc; color: white;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 28px; box-shadow: 0 4px 14px rgba(0,0,0,0.3);
+            z-index: 1500; cursor: pointer; text-decoration: none;
+        }
     </style>
 </head>
 <body>
 
-    <!-- ══════════ ЗАЩИТА ОТ IFRAME И ПРОВЕРКА ДОМЕНА ══════════ -->
+    <!-- Защита от iframe (не мешает GitHub Pages) -->
     <script>
-        // Запрет работы в iframe (защита от фейков)
         if (window.top !== window.self) {
             document.body.innerHTML = '<h1 style="text-align:center;margin-top:100px;">Сайт недоступен во фрейме</h1>';
             throw new Error('Запрещено открытие в iframe');
         }
-        // Глобальный запрет перетаскивания
-        document.addEventListener('dragstart', function(e) {
-            if (e.target.tagName === 'IMG' || e.target.tagName === 'A') {
-                e.preventDefault();
-                return false;
-            }
-        });
     </script>
 
     <!-- Тёмная тема переключатель -->
     <div class="theme-toggle" id="themeToggle" title="Переключить тему">🌓</div>
 
-    <!-- ══════════════ ЛОГОТИП И ЗАГОЛОВОК ══════════════ -->
+    <!-- Логотип + заголовок -->
     <div class="logo-area" id="logoArea">
         <div class="logo-placeholder" id="logoPlaceholder">ВАШ ЛОГОТИП<br>(PNG)</div>
         <img class="logo-img" id="logoImg" src="" alt="VekTV_Plus логотип"
@@ -253,19 +259,94 @@
         <button class="btn-outline" onclick="openModal('modalInstructions')">📋 Инструкции</button>
     </div>
 
-    <!-- ══════════════ МОДАЛИ (заявка, каналы, новости, поддержка, о нас, инструкции) ══════════════ -->
-    <!-- Здесь оставьте все модалы из предыдущего кода без изменений, кроме новостей и деталей новостей -->
-    <!-- Модал заявки (modalApplication) – как раньше, с honeypot -->
-    <!-- Модал каналов (modalChannels) – полностью как раньше, со скелетоном, таблицей, историей, избранным -->
-    <!-- Модал деталей канала (modalChannelDetail) – с плеером, копированием и кнопкой назад -->
-    <!-- Модал поддержки, о нас, инструкций – как раньше -->
+    <!-- Модал заявки -->
+    <div class="modal-overlay" id="modalApplication">
+        <div class="modal">
+            <button class="modal-close" onclick="closeModal('modalApplication')">✕</button>
+            <h2 class="modal-title">📝 Заявка на подключение</h2>
+            <form id="applicationForm" onsubmit="submitApplication(event)">
+                <div style="position:absolute;left:-9999px;opacity:0;" aria-hidden="true">
+                    <input type="text" name="website" tabindex="-1" autocomplete="off">
+                </div>
+                <div class="form-group">
+                    <label for="appName">Ваше ФИО *</label>
+                    <input type="text" id="appName" required autocomplete="name">
+                </div>
+                <div class="form-group">
+                    <label for="appPhone">Номер телефона *</label>
+                    <input type="tel" id="appPhone" required autocomplete="tel">
+                </div>
+                <button type="submit" class="form-submit" id="appSubmitBtn">Отправить заявку</button>
+                <div class="form-feedback" id="appFeedback"></div>
+            </form>
+        </div>
+    </div>
 
-    <!-- НОВЫЙ МОДАЛ НОВОСТЕЙ (аккордеон + фильтр + поделиться) -->
+    <!-- Модал списка каналов -->
+    <div class="modal-overlay" id="modalChannels">
+        <div class="modal modal-wide">
+            <button class="modal-close" onclick="closeModal('modalChannels')">✕</button>
+            <h2 class="modal-title">📺 Список каналов</h2>
+            <div style="display:flex; gap:12px; margin-bottom:16px; flex-wrap:wrap;">
+                <input type="text" class="channel-search" id="channelSearch" placeholder="🔍 Поиск..." oninput="filterChannels()" autocomplete="off" style="flex:1;">
+                <select id="categoryFilter" onchange="filterChannels()" style="padding: 11px 14px; background: var(--input-bg); border: 2px solid var(--input-border); border-radius: var(--radius-sm); color: var(--text);">
+                    <option value="">Все категории</option>
+                    <option value="Федеральные">Федеральные</option>
+                    <option value="Спорт">Спорт</option>
+                    <option value="Развлекательные">Развлекательные</option>
+                </select>
+                <button class="btn-outline" onclick="showFavorites()" style="padding:11px 16px;">⭐ Избранное</button>
+            </div>
+            <p class="channel-count">Найдено: <strong id="chCountNum">0</strong></p>
+            <div id="skeletonContainer" style="display:grid; gap:8px;"></div>
+            <div class="table-wrapper" id="channelTableWrapper" style="display:none;">
+                <table class="channel-table" id="channelTable">
+                    <thead><tr><th></th><th>№</th><th>Название</th><th>Формат</th><th>Категория</th><th>Статус</th><th>Плейлист</th></tr></thead>
+                    <tbody id="channelTableBody">
+                        <tr data-name="Первый канал" data-description="Общероссийский канал" data-playlists="Основной плейлист (IPTV)" data-playlist-encoded="aHR0cHM6Ly9leGFtcGxlLmNvbS9wbGF5bGlzdC5tM3U=">
+                            <td><span class="fav-star" onclick="toggleFavorite(event, this)">☆</span></td>
+                            <td>1</td><td>Первый канал</td><td>HD</td><td>Федеральные</td>
+                            <td><span class="status-dot online"></span> Онлайн</td>
+                            <td><button class="copy-btn" onclick="copyPlaylist(event, this)">📋 Копировать</button></td>
+                        </tr>
+                        <tr data-name="Россия 1" data-description="Главный государственный канал" data-playlists="Плейлист HD" data-playlist-encoded="aHR0cHM6Ly9leGFtcGxlLmNvbS9wbGF5bGlzdDIubTN1">
+                            <td><span class="fav-star" onclick="toggleFavorite(event, this)">☆</span></td>
+                            <td>2</td><td>Россия 1</td><td>HD</td><td>Федеральные</td>
+                            <td><span class="status-dot online"></span> Онлайн</td>
+                            <td><button class="copy-btn" onclick="copyPlaylist(event, this)">📋 Копировать</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="no-results" id="noResults">Ничего не найдено</div>
+            </div>
+            <div style="margin-top:20px;">
+                <strong>🕒 Недавно просмотренные:</strong>
+                <ul class="history-list" id="historyList"></ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Модал деталей канала -->
+    <div class="modal-overlay" id="modalChannelDetail">
+        <div class="modal">
+            <button class="modal-close" onclick="goBack()">✕</button>
+            <div class="channel-detail-name" id="detailName"></div>
+            <div class="channel-detail-description" id="detailDescription"></div>
+            <div>📋 Доступно в плейлистах:</div>
+            <div class="channel-detail-playlists" id="detailPlaylists"></div>
+            <button class="copy-btn" onclick="copyCurrentPlaylist()">📋 Скопировать ссылку</button>
+            <div class="mini-player" id="miniPlayerContainer" style="display:none;">
+                <video id="miniPlayer" controls></video>
+            </div>
+            <button class="btn-collapse" onclick="goBack()">⬅️ Назад к списку</button>
+        </div>
+    </div>
+
+    <!-- Модал новостей -->
     <div class="modal-overlay" id="modalNews">
         <div class="modal modal-wide">
             <button class="modal-close" onclick="closeModal('modalNews')">✕</button>
             <h2 class="modal-title">📰 Новости</h2>
-            <!-- Фильтр по тегам -->
             <div class="news-filter" id="newsFilter">
                 <button class="news-filter-btn active" data-tag="all">Все</button>
                 <button class="news-filter-btn" data-tag="техработы">Техработы</button>
@@ -273,18 +354,15 @@
                 <button class="news-filter-btn" data-tag="обновления">Обновления</button>
             </div>
             <div id="newsList">
-                <!-- НОВОСТИ РЕДАКТИРУЙТЕ ЗДЕСЬ -->
                 <div class="news-item" data-title="🔧 Плановые профилактические работы"
                      data-tags="техработы" data-date="2026-05-10"
                      data-detail="15 мая с 02:00 до 05:00 (МСК) будут проводиться технические работы. Возможны кратковременные перерывы в вещании.">
                     <div class="news-header">
                         <span class="news-title">🔧 Плановые профилактические работы</span>
-                        <span class="news-meta">
-                            <span class="news-badge-new" style="display:none;">Новая</span>
-                        </span>
+                        <span class="news-badge-new">Новая</span>
                     </div>
-                    <div class="news-body">15 мая с 02:00 до 05:00 (МСК) будут проводиться технические работы. Возможны кратковременные перерывы в вещании.</div>
-                    <div class="news-actions" style="display:none;">
+                    <div class="news-body">15 мая с 02:00 до 05:00 (МСК) будут проводиться технические работы.</div>
+                    <div class="news-actions">
                         <button class="news-share-btn" onclick="shareNews(event, this)">📤 Поделиться</button>
                     </div>
                 </div>
@@ -293,12 +371,10 @@
                      data-detail="В плейлист добавлены HD-каналы: КиноPremium, СпортЭкстра. Обновите плейлист.">
                     <div class="news-header">
                         <span class="news-title">🎉 Добавлены новые каналы</span>
-                        <span class="news-meta">
-                            <span class="news-badge-new" style="display:none;">Новая</span>
-                        </span>
+                        <span class="news-badge-new">Новая</span>
                     </div>
-                    <div class="news-body">В плейлист добавлены HD-каналы: КиноPremium, СпортЭкстра. Обновите плейлист.</div>
-                    <div class="news-actions" style="display:none;">
+                    <div class="news-body">В плейлист добавлены HD-каналы: КиноPremium, СпортЭкстра.</div>
+                    <div class="news-actions">
                         <button class="news-share-btn" onclick="shareNews(event, this)">📤 Поделиться</button>
                     </div>
                 </div>
@@ -307,67 +383,334 @@
         </div>
     </div>
 
-    <!-- ══════════════ ТЕХПОДДЕРЖКА, О НАС, ИНСТРУКЦИИ (как раньше) ══════════════ -->
+    <!-- Модал техподдержки -->
+    <div class="modal-overlay" id="modalSupport">
+        <div class="modal">
+            <button class="modal-close" onclick="closeModal('modalSupport')">✕</button>
+            <h2 class="modal-title">💬 Техподдержка</h2>
+            <div class="support-card">
+                <div class="support-label">📱 Telegram</div>
+                <div class="support-value"><a href="https://t.me/VekTV_Support" target="_blank">@VekTV_Support</a></div>
+            </div>
+            <div class="support-card">
+                <div class="support-label">📞 Телефон</div>
+                <div class="support-value"><a href="tel:+78001234567">8 (800) 123-45-67</a></div>
+            </div>
+            <p>🕐 Ежедневно 9:00-22:00</p>
+            <button class="btn-collapse" onclick="closeModal('modalSupport')">⬅️ Закрыть</button>
+        </div>
+    </div>
+
+    <!-- Модал О нас -->
+    <div class="modal-overlay" id="modalAbout">
+        <div class="modal">
+            <button class="modal-close" onclick="closeModal('modalAbout')">✕</button>
+            <div class="about-heading" style="font-weight:900;font-size:26px;margin-bottom:16px;">О компании</div>
+            <div style="white-space:pre-wrap;">VekTV_Plus — ведущий оператор цифрового ТВ. Мы работаем с 2020 года.</div>
+            <button class="btn-collapse" onclick="closeModal('modalAbout')">⬅️ Назад</button>
+        </div>
+    </div>
+
+    <!-- Модал инструкций -->
+    <div class="modal-overlay" id="modalInstructions">
+        <div class="modal">
+            <button class="modal-close" onclick="closeModal('modalInstructions')">✕</button>
+            <h2 class="modal-title">📋 Инструкции по устройствам</h2>
+            <div class="tabs" id="instructionTabs">
+                <button class="tab-btn active" data-tab="tab_smarttv">Smart TV</button>
+                <button class="tab-btn" data-tab="tab_android">Android</button>
+                <button class="tab-btn" data-tab="tab_ios">iOS</button>
+                <button class="tab-btn" data-tab="tab_pc">ПК</button>
+            </div>
+            <div class="tab-content active" id="tab_smarttv">Инструкция для Smart TV: ...</div>
+            <div class="tab-content" id="tab_android">Инструкция для Android: ...</div>
+            <div class="tab-content" id="tab_ios">Инструкция для iOS: ...</div>
+            <div class="tab-content" id="tab_pc">Инструкция для ПК: ...</div>
+            <button class="btn-collapse" onclick="closeModal('modalInstructions')">⬅️ Закрыть</button>
+        </div>
+    </div>
 
     <!-- Плавающая кнопка Telegram -->
-    <a class="telegram-float" href="https://t.me/VekTV_Support" target="_blank" title="Чат в Telegram">✈️</a>
+    <a class="telegram-float" href="https://t.me/VekTV_Support" target="_blank">✈️</a>
 
-    <!-- TOAST -->
     <div class="toast" id="toast"></div>
 
     <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
     <script>
-        // ══════════ НАСТРОЙКИ И ПЕРЕМЕННЫЕ ══════════
-        const TELEGRAM_BOT_TOKEN = '';
-        const TELEGRAM_CHAT_ID = '';
+        // ══════════════════════ НАСТРОЙКИ ══════════════════════
+        const TELEGRAM_BOT_TOKEN = ''; // ваш токен
+        const TELEGRAM_CHAT_ID = '';   // ваш chat_id
+
+        // ══════════════════════ МОДАЛЬНЫЕ ОКНА ══════════════════════
         let previousModal = null;
 
-        // ... (функции openModal, closeModal, goBack, работы с каналами, заявкой, темами – полностью сохраните из предыдущего ответа) ...
+        function openModal(id) {
+            const overlay = document.getElementById(id);
+            if (!overlay) return;
+            document.querySelectorAll('.modal-overlay.active').forEach(m => {
+                if (m.id !== id) closeModal(m.id);
+            });
+            overlay.classList.add('active');
+            document.body.style.overflow = 'hidden';
 
-        // ══════════ НОВОСТИ: АККОРДЕОН, ФИЛЬТР, ПОДЕЛИТЬСЯ, ИНДИКАТОР "НОВАЯ" ══════════
+            if (id === 'modalChannels') {
+                updateChannelCount();
+                renderSkeleton();
+                setTimeout(() => {
+                    document.getElementById('skeletonContainer').style.display = 'none';
+                    document.getElementById('channelTableWrapper').style.display = 'block';
+                }, 600);
+                loadHistory();
+                loadFavorites();
+            }
+            if (id === 'modalNews') {
+                markNewNews();
+                filterNews('all');
+                document.querySelectorAll('.news-item').forEach(item => item.classList.remove('expanded'));
+                document.querySelector('#newsFilter .news-filter-btn[data-tag="all"]').classList.add('active');
+            }
+            if (id === 'modalApplication') {
+                document.getElementById('applicationForm').reset();
+                document.getElementById('appFeedback').textContent = '';
+                document.getElementById('appSubmitBtn').disabled = false;
+            }
+        }
 
-        // Определяем новость как новую (менее 7 дней)
+        function closeModal(id) {
+            const overlay = document.getElementById(id);
+            if (!overlay) return;
+            overlay.classList.remove('active');
+            if (!document.querySelector('.modal-overlay.active')) {
+                document.body.style.overflow = '';
+            }
+        }
+
+        function goBack() {
+            if (previousModal) {
+                const current = document.querySelector('.modal-overlay.active');
+                if (current) current.classList.remove('active');
+                openModal(previousModal);
+                previousModal = null;
+            } else {
+                const active = document.querySelector('.modal-overlay.active');
+                if (active) closeModal(active.id);
+            }
+        }
+
+        document.addEventListener('click', (e) => {
+            if (e.target.classList.contains('modal-overlay') && e.target.classList.contains('active')) {
+                closeModal(e.target.id);
+            }
+        });
+        document.addEventListener('keydown', (e) => { if (e.key === 'Escape') { const a = document.querySelector('.modal-overlay.active'); if (a) closeModal(a.id); } });
+
+        // ══════════════════════ ТЁМНАЯ ТЕМА ══════════════════════
+        const themeToggle = document.getElementById('themeToggle');
+        themeToggle.addEventListener('click', () => {
+            document.body.classList.toggle('dark');
+            localStorage.setItem('theme', document.body.classList.contains('dark') ? 'dark' : 'light');
+            updateThemeIcon();
+        });
+        function updateThemeIcon() {
+            themeToggle.textContent = document.body.classList.contains('dark') ? '☀️' : '🌓';
+        }
+        if (localStorage.getItem('theme') === 'dark') document.body.classList.add('dark');
+        updateThemeIcon();
+
+        // ══════════════════════ ЗАЯВКА (с honeypot и лимитом) ══════════════════════
+        let lastSubmitTime = 0;
+        async function submitApplication(event) {
+            event.preventDefault();
+            const now = Date.now();
+            if (now - lastSubmitTime < 10000) {
+                document.getElementById('appFeedback').textContent = '⏳ Подождите 10 секунд.';
+                return;
+            }
+            if (document.querySelector('#modalApplication input[name="website"]').value) {
+                document.getElementById('appFeedback').textContent = '✅ Заявка принята (спам-фильтр)';
+                return;
+            }
+            const name = document.getElementById('appName').value.trim();
+            const phone = document.getElementById('appPhone').value.trim();
+            if (!name || !phone) {
+                document.getElementById('appFeedback').textContent = '⚠️ Заполните ФИО и телефон.';
+                return;
+            }
+            lastSubmitTime = now;
+            // Имитация отправки (добавьте реальный запрос к Telegram API при желании)
+            document.getElementById('appFeedback').textContent = '✅ Заявка отправлена!';
+            showToast('✅ Заявка отправлена');
+            setTimeout(() => {
+                document.getElementById('applicationForm').reset();
+                document.getElementById('appFeedback').textContent = '';
+            }, 2500);
+        }
+
+        // ══════════════════════ КАНАЛЫ ══════════════════════
+        function filterChannels() {
+            const query = document.getElementById('channelSearch').value.toLowerCase();
+            const category = document.getElementById('categoryFilter').value;
+            const rows = document.querySelectorAll('#channelTableBody tr');
+            let count = 0;
+            rows.forEach(row => {
+                const name = row.cells[2]?.textContent.toLowerCase() || '';
+                const cat = row.cells[4]?.textContent || '';
+                const matchSearch = !query || name.includes(query);
+                const matchCat = !category || cat === category;
+                if (matchSearch && matchCat) { row.style.display = ''; count++; }
+                else { row.style.display = 'none'; }
+            });
+            document.getElementById('chCountNum').textContent = count;
+            document.getElementById('noResults').style.display = count === 0 ? 'block' : 'none';
+        }
+
+        function updateChannelCount() {
+            const total = document.querySelectorAll('#channelTableBody tr').length;
+            document.getElementById('chCountNum').textContent = total;
+            document.getElementById('channelSearch').value = '';
+            document.getElementById('categoryFilter').value = '';
+            document.querySelectorAll('#channelTableBody tr').forEach(r => r.style.display = '');
+            document.getElementById('noResults').style.display = 'none';
+        }
+
+        function renderSkeleton() {
+            const container = document.getElementById('skeletonContainer');
+            container.innerHTML = '';
+            for (let i = 0; i < 5; i++) {
+                const div = document.createElement('div');
+                div.className = 'skeleton';
+                div.style.height = '40px';
+                div.style.marginBottom = '8px';
+                container.appendChild(div);
+            }
+            container.style.display = 'grid';
+            document.getElementById('channelTableWrapper').style.display = 'none';
+        }
+
+        // Избранное
+        function toggleFavorite(event, star) {
+            event.stopPropagation();
+            star.classList.toggle('active');
+            const row = star.closest('tr');
+            const name = row.getAttribute('data-name');
+            let favs = JSON.parse(localStorage.getItem('favChannels') || '[]');
+            if (star.classList.contains('active')) {
+                if (!favs.includes(name)) favs.push(name);
+            } else {
+                favs = favs.filter(n => n !== name);
+            }
+            localStorage.setItem('favChannels', JSON.stringify(favs));
+        }
+
+        function loadFavorites() {
+            const favs = JSON.parse(localStorage.getItem('favChannels') || '[]');
+            document.querySelectorAll('#channelTableBody tr').forEach(row => {
+                const name = row.getAttribute('data-name');
+                const star = row.querySelector('.fav-star');
+                if (star) star.classList.toggle('active', favs.includes(name));
+            });
+        }
+
+        function showFavorites() {
+            const favs = JSON.parse(localStorage.getItem('favChannels') || '[]');
+            document.querySelectorAll('#channelTableBody tr').forEach(row => {
+                const name = row.getAttribute('data-name');
+                row.style.display = favs.includes(name) ? '' : 'none';
+            });
+            document.getElementById('channelSearch').value = '';
+            document.getElementById('categoryFilter').value = '';
+            document.getElementById('noResults').style.display = favs.length === 0 ? 'block' : 'none';
+            document.getElementById('chCountNum').textContent = favs.length;
+        }
+
+        // История
+        function addToHistory(channelName) {
+            let history = JSON.parse(localStorage.getItem('channelHistory') || '[]');
+            history = history.filter(name => name !== channelName);
+            history.unshift(channelName);
+            if (history.length > 5) history.pop();
+            localStorage.setItem('channelHistory', JSON.stringify(history));
+        }
+
+        function loadHistory() {
+            const history = JSON.parse(localStorage.getItem('channelHistory') || '[]');
+            const list = document.getElementById('historyList');
+            list.innerHTML = history.map(name => `<li onclick="openChannelDetailByName('${name}')">${name}</li>`).join('');
+        }
+
+        function openChannelDetailByName(name) {
+            const row = Array.from(document.querySelectorAll('#channelTableBody tr')).find(r => r.getAttribute('data-name') === name);
+            if (row) row.click();
+        }
+
+        // Копирование плейлиста
+        function copyPlaylist(event, btn) {
+            event.stopPropagation();
+            const encoded = btn.closest('tr').getAttribute('data-playlist-encoded');
+            if (encoded) {
+                try {
+                    const url = atob(encoded);
+                    navigator.clipboard.writeText(url).then(() => showToast('✅ Ссылка скопирована!'));
+                } catch (e) { showToast('❌ Ошибка копирования'); }
+            }
+        }
+
+        function copyCurrentPlaylist() {
+            const encoded = document.getElementById('detailPlaylists').getAttribute('data-encoded');
+            if (encoded) {
+                navigator.clipboard.writeText(atob(encoded)).then(() => showToast('✅ Ссылка скопирована'));
+            }
+        }
+
+        // Клик по каналу – детали
+        document.addEventListener('click', function(e) {
+            const row = e.target.closest('#channelTableBody tr');
+            if (!row) return;
+            const name = row.getAttribute('data-name');
+            const desc = row.getAttribute('data-description') || '';
+            const playlists = row.getAttribute('data-playlists') || '';
+            const encoded = row.getAttribute('data-playlist-encoded') || '';
+
+            document.getElementById('detailName').textContent = name;
+            document.getElementById('detailDescription').textContent = desc;
+            document.getElementById('detailPlaylists').textContent = playlists;
+            document.getElementById('detailPlaylists').setAttribute('data-encoded', encoded);
+
+            const playerContainer = document.getElementById('miniPlayerContainer');
+            const video = document.getElementById('miniPlayer');
+            if (encoded) {
+                try {
+                    const url = atob(encoded);
+                    playerContainer.style.display = 'block';
+                    if (url.endsWith('.m3u8') && Hls.isSupported()) {
+                        const hls = new Hls();
+                        hls.loadSource(url);
+                        hls.attachMedia(video);
+                    } else {
+                        video.src = url;
+                    }
+                } catch (e) { playerContainer.style.display = 'none'; }
+            } else {
+                playerContainer.style.display = 'none';
+            }
+
+            addToHistory(name);
+            previousModal = 'modalChannels';
+            openModal('modalChannelDetail');
+        });
+
+        // ══════════════════════ НОВОСТИ ══════════════════════
         function markNewNews() {
             const now = new Date();
             document.querySelectorAll('.news-item').forEach(item => {
                 const dateStr = item.getAttribute('data-date');
                 if (!dateStr) return;
-                const pubDate = new Date(dateStr);
-                const diffDays = (now - pubDate) / (1000 * 60 * 60 * 24);
+                const diffDays = (now - new Date(dateStr)) / (1000 * 60 * 60 * 24);
                 const badge = item.querySelector('.news-badge-new');
-                if (badge && diffDays < 7) {
-                    badge.style.display = 'inline';
-                }
+                if (badge && diffDays < 7) badge.style.display = 'inline';
             });
         }
 
-        // Разворачивание/сворачивание новости (аккордеон)
-        document.addEventListener('click', function(e) {
-            const newsItem = e.target.closest('.news-item');
-            if (!newsItem || !newsItem.closest('#modalNews')) return;
-            // Не срабатываем при клике на кнопку "Поделиться"
-            if (e.target.closest('.news-share-btn')) return;
-            newsItem.classList.toggle('expanded');
-            const actions = newsItem.querySelector('.news-actions');
-            if (actions) {
-                actions.style.display = newsItem.classList.contains('expanded') ? 'flex' : 'none';
-            }
-        });
-
-        // Поделиться новостью
-        function shareNews(event, btn) {
-            event.stopPropagation();
-            const item = btn.closest('.news-item');
-            const title = item.getAttribute('data-title');
-            const url = window.location.href.split('?')[0] + '?news=' + encodeURIComponent(title);
-            if (navigator.share) {
-                navigator.share({ title: title, text: 'Новость VekTV_Plus', url: url }).catch(() => {});
-            } else {
-                navigator.clipboard.writeText(url).then(() => showToast('🔗 Ссылка скопирована!'));
-            }
-        }
-
-        // Фильтр новостей по тегам
         function filterNews(tag) {
             document.querySelectorAll('.news-item').forEach(item => {
                 const tags = item.getAttribute('data-tags') || '';
@@ -387,23 +730,56 @@
             filterNews(btn.getAttribute('data-tag'));
         });
 
-        // Инициализация при открытии новостей
-        const originalOpenModal = openModal;
-        openModal = function(id) {
-            originalOpenModal(id);
-            if (id === 'modalNews') {
-                markNewNews();
-                filterNews('all'); // показать все
-                document.querySelectorAll('.news-item').forEach(item => {
-                    item.classList.remove('expanded');
-                    const actions = item.querySelector('.news-actions');
-                    if (actions) actions.style.display = 'none';
-                });
-                document.querySelector('#newsFilter .news-filter-btn[data-tag="all"]').classList.add('active');
-            }
-        };
+        // Аккордеон новостей
+        document.addEventListener('click', function(e) {
+            const newsItem = e.target.closest('.news-item');
+            if (!newsItem || !newsItem.closest('#modalNews')) return;
+            if (e.target.closest('.news-share-btn')) return;
+            newsItem.classList.toggle('expanded');
+            const actions = newsItem.querySelector('.news-actions');
+            if (actions) actions.style.display = newsItem.classList.contains('expanded') ? 'flex' : 'none';
+        });
 
-        // ... весь остальной код (темы, модалы, каналы, плеер и т.д.) остаётся без изменений ...
+        function shareNews(event, btn) {
+            event.stopPropagation();
+            const item = btn.closest('.news-item');
+            const title = item.getAttribute('data-title');
+            const url = window.location.href.split('?')[0] + '?news=' + encodeURIComponent(title);
+            if (navigator.share) {
+                navigator.share({ title: title, text: 'Новость VekTV_Plus', url: url }).catch(() => {});
+            } else {
+                navigator.clipboard.writeText(url).then(() => showToast('🔗 Ссылка скопирована!'));
+            }
+        }
+
+        // ══════════════════════ ТАБЫ ИНСТРУКЦИЙ ══════════════════════
+        document.querySelectorAll('#instructionTabs .tab-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                document.querySelectorAll('#instructionTabs .tab-btn').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                const tabId = this.getAttribute('data-tab');
+                document.querySelectorAll('#modalInstructions .tab-content').forEach(c => c.classList.remove('active'));
+                document.getElementById(tabId).classList.add('active');
+            });
+        });
+
+        // ══════════════════════ TOAST ══════════════════════
+        function showToast(msg) {
+            const toast = document.getElementById('toast');
+            toast.textContent = msg;
+            toast.classList.add('show');
+            setTimeout(() => toast.classList.remove('show'), 3000);
+        }
+
+        // Инициализация логотипа
+        document.addEventListener('DOMContentLoaded', () => {
+            const logoImg = document.getElementById('logoImg');
+            const placeholder = document.getElementById('logoPlaceholder');
+            if (logoImg.src && logoImg.src.trim() !== '' && !logoImg.src.endsWith('#')) {
+                logoImg.style.display = 'block';
+                placeholder.style.display = 'none';
+            }
+        });
     </script>
 </body>
 </html>
