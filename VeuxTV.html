@@ -220,13 +220,6 @@
             document.body.innerHTML = '<h1 style="text-align:center;margin-top:100px;">Сайт недоступен во фрейме</h1>';
             throw new Error('Запрещено открытие в iframe');
         }
-        // Проверка домена (замените на свой)
-        const ALLOWED_HOST = 'vektv-plus.ru'; // или ваш реальный домен
-        if (window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1') {
-            if (window.location.hostname !== ALLOWED_HOST) {
-                document.body.innerHTML = '<h1 style="text-align:center;margin-top:100px;">⚠️ Предупреждение: возможно, это поддельный сайт. Официальный домен: vektv-plus.ru</h1>';
-            }
-        }
         // Глобальный запрет перетаскивания
         document.addEventListener('dragstart', function(e) {
             if (e.target.tagName === 'IMG' || e.target.tagName === 'A') {
