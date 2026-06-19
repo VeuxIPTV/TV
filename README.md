@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# VekIPTV
-
 <img src="https://img.shields.io/badge/Veux-000000?style=for-the-badge&logo=antv&logoColor=FFFFFF" /> <img src="https://img.shields.io/badge/IPTV-000000?style=for-the-badge&logo=&logoColor=FFFFFF" />
 
 IPTV плейлисты для комфортного просмотра.
@@ -66,5 +63,3 @@ IPTV PLAYER
 12.Вот и всё,теперь вы сможете смотреть телеканалы в хорошем качестве и с хорошим звуком.
 
 =======
-# TV
->>>>>>> 6c53882e35b0b25540401bdfee7d5469a27e4055
