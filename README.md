@@ -16,7 +16,7 @@ https://iptvx.one/EPG_NOARCH
 
 В плейлистах будет поддержка:
 
-<img src="https://img.shields.io/badge/Запись и перемотка-000000?style=for-the-badge&logo=&logoColor=FFFFFF" /> <img src="https://img.shields.io/badge/Stereo-000000?style=for-the-badge&logo=podcastindex&logoColor=FFFFFF" /> <img src="https://img.shields.io/badge/Dolby Atmos-000000?style=for-the-badge&logo=dolby&logoColor=FFFFFF" /> <img src="https://img.shields.io/badge/Dolby Digital-000000?style=for-the-badge&logo=dolby&logoColor=FFFFFF" /> <img src="https://img.shields.io/badge/Dolby Digital Plus-000000?style=for-the-badge&logo=dts&logoColor=FFFFFF" />
+<img src="https://img.shields.io/badge/Запись и перемотка-000000?style=for-the-badge&logo=&logoColor=FFFFFF" /> <img src="https://img.shields.io/badge/Stereo-000000?style=for-the-badge&logo=podcastindex&logoColor=FFFFFF" /> <img src="https://img.shields.io/badge/Dolby Atmos-000000?style=for-the-badge&logo=dolby&logoColor=FFFFFF" /> <img src="https://img.shields.io/badge/Dolby Digital-000000?style=for-the-badge&logo=dolby&logoColor=FFFFFF" />
 
 Качество:
 
