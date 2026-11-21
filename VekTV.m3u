@@ -2,7 +2,7 @@
 #EXTM3U x-tvg-url="https://iptvx.one/EPG_NOARCH"
 
 #EXTINF:-1 tvg-id="no_epg" audio-track="rus" tvg-adaptive="auto" group-title="ИНФО",TEST
-https://veuxtv.serveousercontent.com/index.m3u8
+https://oidxu-95-179-115-95.free.pinggy.net/index.m3u8
 
 #EXTINF:-1 tvg-id="no_epg" audio-track="rus" tvg-adaptive="auto" group-title="ИНФО",TEST2
 http://192.168.0.17:8080/index.m3u8
